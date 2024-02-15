@@ -15,7 +15,9 @@ const Screen = ({children, route}: ScreenProps) => {
         <div className='webContainer'>
           <div className='mainContentContainer'>
             <NavigationTabs />
-            {children}
+            <div className='onlyContentContainer'>
+              {children}
+            </div> 
           </div>
           <div className='profileContainer'>
             <Profile />

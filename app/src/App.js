@@ -5,6 +5,7 @@ import Career from './screens/Career.tsx';
 import Screen from './screens/screen.tsx'
 import React, {useEffect} from 'react';
 import './App.css';
+import { ThemeProvider, createTheme } from '@mui/material';
 
 
 function App() {
@@ -32,17 +33,35 @@ function App() {
         return 'about';
     }
   };
+  
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: 'rgb(30, 56, 133)',
+    },
+    secondary: {
+      main: 'rgba(255, 255, 255)',
+    },
+  },
+});
   return (
-    <div className='AppContainer'>
-      <Routes>
-        <Route path="/" element={<Screen route="about"><About/></Screen>} />
-        <Route path="/about" element={<Screen route="about"><About/></Screen>} />
-        <Route path="/career" element={<Screen route="career"><Career/></Screen>} />
-        <Route path="/projects" element={<Screen route="projects"><About/></Screen>} />
-        <Route path="/skills" element={<Screen route="skills"><About/></Screen>} />
-        <Route path="/resume" element={<Screen route="resume"><About/></Screen>} />
+    <ThemeProvider theme={theme}>
+      <div className='AppContainer'>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      />
+        <Routes>
+          <Route path="/" element={<Screen route="about"><About/></Screen>} />
+          <Route path="/about" element={<Screen route="about"><About/></Screen>} />
+          <Route path="/career" element={<Screen route="career"><Career/></Screen>} />
+          <Route path="/projects" element={<Screen route="projects"><About/></Screen>} />
+          <Route path="/skills" element={<Screen route="skills"><About/></Screen>} />
+          <Route path="/resume" element={<Screen route="resume"><About/></Screen>} />
       </Routes>
-    </div>
+      </div>
+    </ThemeProvider>
+    
   );
 }
 export default App;
