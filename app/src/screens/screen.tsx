@@ -3,18 +3,19 @@ import React from 'react';
 import '../styles/screens/screen.css';
 import NavigationTabs from '../components/NavigationTabs.tsx';
 import Profile from '../components/Profile.tsx';
-
+type LanguageChangeHandler = (selectedLocale: string) => void;
 interface ScreenProps {
   children: ReactNode;
   route?: string;
+  onLanguageChange: LanguageChangeHandler;
 }
-const Screen = ({children, route}: ScreenProps) => {
+const Screen = ({children, route, onLanguageChange}: ScreenProps) => {
   return (
     <div className='globalContainer'>
       <div className='backgroundImage' />
         <div className='webContainer'>
           <div className='mainContentContainer'>
-            <NavigationTabs />
+            <NavigationTabs onLanguageChange={onLanguageChange}/>
             <div className='onlyContentContainer'>
               {children}
             </div> 

@@ -37,7 +37,7 @@
   }
   
   .mainContentContainer {
-    flex: 4;
+    flex: 6;
     height: 100%;
     padding-right: 3%;
     padding-left: 3%;
@@ -56,7 +56,7 @@
   }
 
   .profileContainer {
-    flex: 1;
+    flex: 2;
     height: 100%;
     padding-left: 2%;
     padding-right: 2%;
@@ -95,7 +95,45 @@
     color: rgb(217, 24, 24);
     font-weight: 600;
   }
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .align-right {
+    display: flex;
+    justify-content: flex-end;
+  }
   
+  .flex-1 {
+    flex: 1
+  }
+  .flex-2 {
+    flex: 2
+  }
+  .flex-3 {
+    flex: 3
+  }
+  .flex-4 {
+    flex: 4
+  }
+  .flex-5 {
+    flex: 5
+  }
+  .flex-6 {
+    flex: 6
+  }
+  .bg-red {
+    background-color: red;
+  }
+  .bg-green {
+    background-color: green;
+  }
+
   @media (max-width: 768px) {
     .webContainer {
       /* Styles spécifiques à la version mobile */
