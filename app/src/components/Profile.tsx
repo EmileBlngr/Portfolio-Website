@@ -11,9 +11,9 @@ export default function NavigationTabs() {
     return(
         <div className="profile-content">
             <Avatar
-                alt="photo Emile" 
-                src={photoEmile}
-                sx={{ width:176, height: 176, borderColor:theme.palette.primary.main, border:2}}/>
+            alt="photo Emile" 
+            src={photoEmile}
+            sx={{ width:176, height: 176, borderColor:theme.palette.primary.main, border:2}}/>
             <h2>Emile Boulanger</h2>
             <h4><FormattedMessage id="profileTitle"/></h4>
             <div className="row">

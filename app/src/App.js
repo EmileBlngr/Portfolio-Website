@@ -9,10 +9,12 @@ import Screen from './screens/screen.tsx'
 import React, {useEffect, useState} from 'react';
 import './App.css';
 import { ThemeProvider, createTheme } from '@mui/material';
+import Projects from './screens/Projects.tsx';
+import Skills from './screens/Skills.tsx';
 
 
 function App() {
-  const [locale, setLocale] = useState('en'); // state for current locale
+  const [locale, setLocale] = useState('fr'); // state for current locale
   const handleLanguageChange = (selectedLocale) => {
     setLocale(selectedLocale);
   };
@@ -55,7 +57,7 @@ const theme = createTheme({
 });
   return (
     <ThemeProvider theme={theme}>
-      <IntlProvider locale={locale} messages={messages}>
+      <IntlProvider locale={locale} messages={messages} defaultLocale='fr'>
         <div className='AppContainer'>
         <link
           rel="stylesheet"
@@ -65,8 +67,8 @@ const theme = createTheme({
             <Route path="/" element={<Screen route="about" onLanguageChange={handleLanguageChange}><About/></Screen>} />
             <Route path="/about" element={<Screen route="about" onLanguageChange={handleLanguageChange}><About/></Screen>} />
             <Route path="/career" element={<Screen route="career" onLanguageChange={handleLanguageChange}><Career/></Screen>} />
-            <Route path="/projects" element={<Screen route="projects" onLanguageChange={handleLanguageChange}><About/></Screen>} />
-            <Route path="/skills" element={<Screen route="skills" onLanguageChange={handleLanguageChange}><About/></Screen>} />
+            <Route path="/projects" element={<Screen route="projects" onLanguageChange={handleLanguageChange}><Projects/></Screen>} />
+            <Route path="/skills" element={<Screen route="skills" onLanguageChange={handleLanguageChange}><Skills/></Screen>} />
             <Route path="/resume" element={<Screen route="resume" onLanguageChange={handleLanguageChange}><About/></Screen>} />
           </Routes>
         </div>

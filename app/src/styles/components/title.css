@@ -1,0 +1,12 @@
+.title-container {
+  width: 20%;
+}
+
+.title {
+  margin-bottom: 5%;
+}
+
+.divider {
+  width: 80%;
+  border : 2px solid rgb(30, 56, 133);
+}

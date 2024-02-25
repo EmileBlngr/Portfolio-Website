@@ -17,6 +17,13 @@
     height: 100%;
     overflow: hidden;
   }
+
+  .container-global-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
   
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -33,7 +40,6 @@
     margin: auto;
     color: rgb(30, 56, 133) ;
     margin-top: 2%;
-    overflow: hidden;
   }
   
   .mainContentContainer {
@@ -80,8 +86,8 @@
   }
   /* Titre 1 */
    h1 { 
-    font-size: 2em;
-    text-align: center;
+    margin: 0;
+    font-size: 1.3em;
     color: rgb(30, 56, 133);
   }
   /* Labels de formulaire */
@@ -137,14 +143,33 @@
   @media (max-width: 768px) {
     .webContainer {
       /* Styles spécifiques à la version mobile */
-      width: 90%;
-      padding: 0%;
-      padding-inline: 5%;
-      padding-top: 2%;
-      border-radius: 0;
+      display: block;
+      flex-direction: column;
+      overflow-y: scroll;
+      width: 100%;
       height: 100%;
+      border-radius: 0;
       justify-content: center;
-      margin-top: 0;
+      margin: 0;
+      padding: 0;
       flex: 1;
+    }
+    .profileContainer {
+      margin: 0;
+      height: auto;
+      border-radius: 0;
+      flex: 1;
+    }
+    .mainContentContainer {
+      margin: 0;
+      border-radius: 0;
+      flex: 2;
+      overflow: visible;
+    }
+     /* Titre 1 */
+    h1 { 
+      margin: 0;
+      font-size: 0.9em;
+      color: rgb(30, 56, 133);
     }
   }

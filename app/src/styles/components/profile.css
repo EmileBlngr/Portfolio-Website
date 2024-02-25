@@ -25,3 +25,8 @@ h2 {
 .row a {
   text-decoration:none;
 }
+
+
+@media (max-width: 768px) {
+
+}
