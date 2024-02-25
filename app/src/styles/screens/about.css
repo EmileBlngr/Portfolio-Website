@@ -9,6 +9,7 @@
 .presentation-sentence {
     padding-bottom: 3%;
     padding-inline: 10%;
+    text-indent: 2%;
 }
 
 @media (max-width: 930px) {

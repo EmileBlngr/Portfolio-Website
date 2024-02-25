@@ -6,10 +6,20 @@
     "resumeTab": "Mon CV",
 
     "profileTitle": "Etudiant ingénieur en informatique",
+
     "about-citation": "Développeur passionné, j'allie analyse et compétences techniques pour créer des solutions innovantes.",
-    "about-presentation-1" : "    Je suis Emile Boulanger, étudiant en informatique à CESI Ecole d'Ingénieurs à Bordeaux (actuellement en BAC+3).",
-    "about-presentation-2" : "    Passionné par le monde du développement logiciel et web, tant du côté backend que frontend, je suis particulièrement attiré par les aspects créatifs et analytiques que ce domaine apporte.",
-    "about-presentation-3" : "    Mon aspiration est de contribuer à des projets dynamiques et stimulants, favorisant l'innovation.",
-    "about-presentation-4" : "    Je prévois d'évoluer dans la partie technique du développement avant de m'orienter à terme plus vers des responsabilités liées à la gestion de projets.",
-    "about-presentation-5" : "    Vous aurez un aperçu plus approfondi de ma personnalité et de mon parcours à travers cette page."
+    "about-presentation-1" : "Je suis Emile Boulanger, étudiant en informatique à CESI Ecole d'Ingénieurs à Bordeaux (actuellement en BAC+3).",
+    "about-presentation-2" : "Passionné par le monde du développement logiciel et web, tant du côté backend que frontend, je suis particulièrement attiré par les aspects créatifs et analytiques que ce domaine apporte.",
+    "about-presentation-3" : "Mon aspiration est de contribuer à des projets dynamiques et stimulants, favorisant l'innovation.",
+    "about-presentation-4" : "Je prévois d'évoluer dans la partie technique du développement avant de m'orienter à terme plus vers des responsabilités liées à la gestion de projets.",
+    "about-presentation-5" : "Vous aurez un aperçu plus approfondi de ma personnalité et de mon parcours à travers cette page.",
+
+    "career-label-now" : "En cours",
+    "career-cesi" : "CESI Ecole d'Ingénieurs Bordeaux",
+    "career-cesi-diplome" : "Diplôme d'Ingénieur Informatique",
+    "career-cesi-text" : "CESI est basée sur la méthode d'apprentissage PBL (Problem Based Learning). Je suis actuellement en 3ème année de spécialité informatique.",
+    "career-bac" : "Lycée Val-de-Garonne, Marmande",
+    "career-bac-diplome" : "Diplôme du Baccalauréat scientifique",
+    "career-bac-text" : "Diplôme obtenu avec la Mention 'Très Bien'. Mes spécialités étaient : Mathématiques, Informatique, et Science de l'ingénieur."
+
 }

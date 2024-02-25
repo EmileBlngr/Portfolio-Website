@@ -1,0 +1,18 @@
+.timeline-container {
+    padding-right: 30%
+}
+
+.timeline-icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+}
+
+.timeline-date {
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+
+}
+
