@@ -20,5 +20,20 @@
     "career-cesi-text": "CESI is based on the Problem Based Learning (PBL) method of learning. I am currently in my 3rd year specializing in computer science.",
     "career-bac": "Val-de-Garonne High School, Marmande",
     "career-bac-diplome": "Scientific Baccalaureate Diploma",
-    "career-bac-text": "Diploma obtained with the Highest Honors. My specialties were: Mathematics, Computer Science, and Engineering Science."
+    "career-bac-text": "Diploma obtained with the Highest Honors. My specialties were: Mathematics, Computer Science, and Engineering Science.",
+    "career-academic-career": "Academic Career",
+    "career-professional-career": "Professional Experience",
+
+    "career-watsoft": "01/2024 - 04/2024 | Watsoft Distribution, Pessac",
+    "career-watsoft-exp": "Fullstack Developer Internship: .NET / C# / Vue.js",
+    "career-watsoft-text1": "As a fullstack developer intern at Watsoft, I was involved in all aspects of software development. Working within a small team, I participated in maintenance tasks (TMA) in an Agile environment. My main mission (3 months) involved the complete overhaul of a critical ERP feature. Thus, independently, I designed the new solution through all these steps:",
+    "career-watsoft-text2": "1 - Requirement analysis",
+    "career-watsoft-text3": "2 - Planning",
+    "career-watsoft-text4": "3 - Creation of the new solution's design (Figma mockups)",
+    "career-watsoft-text5": "4 - UML modeling (class/sequence diagrams)",
+    "career-watsoft-text6": "5 - Frontend Development (Vue.js with Quasar framework)",
+    "career-watsoft-text7": "6 - Backend Development (.NET C#, using hexagonal architecture)",
+    "career-cgi": "04/2023 - 07/2023 | CGI, Le Haillan",
+    "career-cgi-exp": "Digital Designer Internship",
+    "career-cgi-text": "As part of a development team following the Agile Scrum methodology, I contributed to the creation of two internal mobile applications using React Native. I participated in designing the application mockups (UI design), brainstorming on business logic, and frontend development under the guidance of a Tech Lead."
 }

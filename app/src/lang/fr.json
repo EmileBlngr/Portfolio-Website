@@ -20,6 +20,19 @@
     "career-cesi-text" : "CESI est basée sur la méthode d'apprentissage PBL (Problem Based Learning). Je suis actuellement en 3ème année de spécialité informatique.",
     "career-bac" : "Lycée Val-de-Garonne, Marmande",
     "career-bac-diplome" : "Diplôme du Baccalauréat scientifique",
-    "career-bac-text" : "Diplôme obtenu avec la Mention 'Très Bien'. Mes spécialités étaient : Mathématiques, Informatique, et Science de l'ingénieur."
-
+    "career-bac-text" : "Diplôme obtenu avec la Mention 'Très Bien'. Mes spécialités étaient : Mathématiques, Informatique, et Science de l'ingénieur.",
+    "career-academic-career" : "Parcours Académique",
+    "career-professional-career" : "Expérience Professionelle",
+    "career-watsoft" : "01/2024 - 04/2024 | Watsoft Distribution, Pessac",
+    "career-watsoft-exp" : "Stage Développeur Fullstack .NET / C# / Vue.js",
+    "career-watsoft-text1" : "En tant que stagiaire développeur fullstack chez Watsoft, j'ai été impliqué dans tous les aspects du développement logiciel. Travaillant au sein d'une petite équipe, j'ai participé aux tâches de maintenance (TMA) dans un environnement Agile. Ma principale mission (3 mois) concernait la refonte complète d'une fonctionnalité critique de l'ERP. Ainsi, de manière autonome, j'ai conçu la nouvelle solution à travers toutes ces étapes :",
+    "career-watsoft-text2" : "1 - Expression du besoin",
+    "career-watsoft-text3" : "2 - Planification",
+    "career-watsoft-text4" : "3 - Création du design de la nouvelle solution (maquettes Figma)",
+    "career-watsoft-text5" : "4 - Modélisation UML (diagrammes de classe/séquence)",
+    "career-watsoft-text6" : "5 - Développement Frontend (Vue.js avec le framework Quasar)",
+    "career-watsoft-text7" : "6 - Développement Backend (.NET C#, avec une architecture hexagonale)",
+    "career-cgi" : "04/2023 - 07/2023 | CGI, Le Haillan",
+    "career-cgi-exp" : "Stage Concepteur Numérique Responsable",
+    "career-cgi-text" : "Intégré à une équipe de développeurs suivant la méthodologie Agile Scrum, j'ai participé à la création de deux applications mobiles internes en React Native. J'ai contribué à la conception des maquettes de l'application (UI design), à la réflexion sur la logique métier, puis au développement de la partie frontend sous la responsabilité d'un Tech Lead."
 }

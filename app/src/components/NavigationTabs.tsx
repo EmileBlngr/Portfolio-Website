@@ -93,11 +93,11 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
         ) : (
           <>
           <Tabs value={tab} onChange={handleChange} className="flex-1">
-            <Tab label={<FormattedMessage id="aboutTab"/>} id="about"/>
-            <Tab label={<FormattedMessage id="careerTab"/>} id="career"/>
-            <Tab label={<FormattedMessage id="projectsTab"/>} id="projects"/>
-            <Tab label={<FormattedMessage id="skillsTab"/>} id="skills"/>
-            <Tab label={<FormattedMessage id="resumeTab"/>} id="resume"/> 
+            <Tab label={<FormattedMessage id="aboutTab"/>} id="about" sx={{ fontWeight: tab === 0 ? 'bold' : 'normal' }}/>
+            <Tab label={<FormattedMessage id="careerTab"/>} id="career" sx={{ fontWeight: tab === 1 ? 'bold' : 'normal' }}/>
+            <Tab label={<FormattedMessage id="projectsTab"/>} id="projects" sx={{ fontWeight: tab === 2 ? 'bold' : 'normal' }}/>
+            <Tab label={<FormattedMessage id="skillsTab"/>} id="skills" sx={{ fontWeight: tab === 3 ? 'bold' : 'normal' }}/>
+            <Tab label={<FormattedMessage id="resumeTab"/>} id="resume" sx={{ fontWeight: tab === 4 ? 'bold' : 'normal' }}/> 
           </Tabs> 
           <ButtonGroup disableElevation size="small">
           <Button 
