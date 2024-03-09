@@ -7,7 +7,6 @@ import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from '@mui/material/Button';
 import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import { englishIcon, franceIcon } from "../assets/_export.tsx";
 import { Icon, ListItemButton, ListItemIcon } from "@mui/material";
@@ -28,6 +27,7 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
     const intl = useIntl();
     const navigate = useNavigate();
     const [tab, setTab] = useState<Number>(0)
+    const [tabName, setTabName] = useState<string>("aboutTab");
     const [language, setLanguage] = useState<String>(intl.defaultLocale)
     const [isMobile, setIsMobile] = useState(false);
     const [drawerOpen, setDrawerOpen] = useState(false);
@@ -43,18 +43,23 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
       switch (tab) {
         case 0:
           route = "/about"
+          setTabName("aboutTab")
           break;
         case 1:
           route = "/career"
+          setTabName("careerTab")
           break;
         case 2:
           route = "/projects"
+          setTabName("projectsTab")
           break;
         case 3:
           route = "/skills"
+          setTabName("skillsTab")
           break;
         case 4:
           route = "/resume"
+          setTabName("resumeTab")
           break;
         default:
           route = "/"
@@ -79,9 +84,10 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
       setDrawerOpen(!drawerOpen);
     };
 
-    const handleDrawerItemClick = (route: string) => {
+    const handleDrawerItemClick = (route: string, message: string) => {
       setDrawerOpen(false);
       navigate(route);
+      setTabName(message)
     };
     
     return(
@@ -89,6 +95,7 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
          {isMobile ? (
           <Button onClick={handleToggleDrawer}>
             <Icon>menu</Icon>
+            <h1 style={{marginLeft: 10}}><FormattedMessage id={tabName}/></h1>
           </Button>
         ) : (
           <>
@@ -118,23 +125,23 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
         )}
          <Drawer anchor="top" open={isMobile && drawerOpen} onClose={handleToggleDrawer}>
           <List>
-            <ListItemButton onClick={() => handleDrawerItemClick("/about")}>
+            <ListItemButton onClick={() => handleDrawerItemClick("/about", "aboutTab")}>
             <ListItemIcon><InfoIcon/></ListItemIcon>
               <ListItemText primary={<FormattedMessage id="aboutTab"/>} />
             </ListItemButton>
-            <ListItemButton onClick={() => handleDrawerItemClick("/career")}>
+            <ListItemButton onClick={() => handleDrawerItemClick("/career", "careerTab")}>
               <ListItemIcon><RocketLaunchIcon/></ListItemIcon>
               <ListItemText primary={<FormattedMessage id="careerTab"/>} />
             </ListItemButton>
-            <ListItemButton onClick={() => handleDrawerItemClick("/projects")}>
+            <ListItemButton onClick={() => handleDrawerItemClick("/projects", "projectsTab")}>
               <ListItemIcon><DeveloperBoardIcon/></ListItemIcon>
               <ListItemText primary={<FormattedMessage id="projectsTab"/>} />
             </ListItemButton>
-            <ListItemButton onClick={() => handleDrawerItemClick("/skills")}>
+            <ListItemButton onClick={() => handleDrawerItemClick("/skills", "skillsTab")}>
               <ListItemIcon><EmojiObjectsIcon/></ListItemIcon>
               <ListItemText primary={<FormattedMessage id="skillsTab"/>} />
             </ListItemButton>
-            <ListItemButton onClick={() => handleDrawerItemClick("/resume")}>
+            <ListItemButton onClick={() => handleDrawerItemClick("/resume", "resumeTab")}>
               <ListItemIcon><PictureAsPdfIcon/></ListItemIcon>
               <ListItemText primary={<FormattedMessage id="resumeTab"/>} />
             </ListItemButton>

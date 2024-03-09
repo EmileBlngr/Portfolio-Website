@@ -5,7 +5,7 @@
     "skillsTab": "Compétences",
     "resumeTab": "Mon CV",
 
-    "profileTitle": "Etudiant ingénieur en informatique",
+    "profileTitle": "Étudiant ingénieur en informatique",
 
     "about-citation": "Développeur passionné, j'allie analyse et compétences techniques pour créer des solutions innovantes.",
     "about-presentation-1" : "Je suis Emile Boulanger, étudiant en informatique à CESI Ecole d'Ingénieurs à Bordeaux (actuellement en BAC+3).",
@@ -17,7 +17,7 @@
     "career-label-now" : "En cours",
     "career-cesi" : "CESI Ecole d'Ingénieurs Bordeaux",
     "career-cesi-diplome" : "Diplôme d'Ingénieur Informatique",
-    "career-cesi-text" : "CESI est basée sur la méthode d'apprentissage PBL (Problem Based Learning). Je suis actuellement en 3ème année de spécialité informatique.",
+    "career-cesi-text" : "CESI est basée sur la méthode d'apprentissage PBL (Problem Based Learning), qui met les projets de groupe en totale autonomie au centre de l'apprentissage. Je suis actuellement en 3ème année de spécialité informatique.",
     "career-bac" : "Lycée Val-de-Garonne, Marmande",
     "career-bac-diplome" : "Diplôme du Baccalauréat scientifique",
     "career-bac-text" : "Diplôme obtenu avec la Mention 'Très Bien'. Mes spécialités étaient : Mathématiques, Informatique, et Science de l'ingénieur.",
@@ -34,5 +34,11 @@
     "career-watsoft-text7" : "6 - Développement Backend (.NET C#, avec une architecture hexagonale)",
     "career-cgi" : "04/2023 - 07/2023 | CGI, Le Haillan",
     "career-cgi-exp" : "Stage Concepteur Numérique Responsable",
-    "career-cgi-text" : "Intégré à une équipe de développeurs suivant la méthodologie Agile Scrum, j'ai participé à la création de deux applications mobiles internes en React Native. J'ai contribué à la conception des maquettes de l'application (UI design), à la réflexion sur la logique métier, puis au développement de la partie frontend sous la responsabilité d'un Tech Lead."
+    "career-cgi-text" : "Intégré à une équipe de développeurs suivant la méthodologie Agile Scrum, j'ai participé à la création de deux applications mobiles internes en React Native. J'ai contribué à la conception des maquettes de l'application (UI design), à la réflexion sur la logique métier, puis au développement de la partie frontend sous la responsabilité d'un Tech Lead.",
+    "career-rauzan" : "08/2022 | Caves de Rauzan, Rauzan",
+    "career-rauzan-exp" : "Employé de chai",
+    "career-rauzan-text" : "J'ai réalisé des tâches de nettoyage et de maintenance, d'autres divers travaux de chais, et j'ai participé aux vendanges de Crémant.",
+    "career-girondehabitat" : "01/2018 | Gironde Habitat, Bordeaux",
+    "career-girondehabitat-exp" : "Stage d'observation dans le pôle juridique",
+    "career-girondehabitat-text" : "Stage d'observation de 3ème. Découverte du milieu professionnel et juridique."
 }

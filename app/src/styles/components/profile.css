@@ -1,4 +1,4 @@
-.profile-content {
+.profile-container {
   height: 100%;
   padding-top: 3%;
   border-radius: 5px;
@@ -27,6 +27,38 @@ h2 {
 }
 
 
+@media (max-width: 1185px) {
+.profile-container {
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.profile-lines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.row {
+  width: 35%;
+}
+h2, h4, span, div {
+  color: rgb(30, 56, 133)
+}
+}
 @media (max-width: 768px) {
-
+  .row {
+    width: 50%;
+  }
+}
+@media (max-width: 498px) {
+  .row {
+    width: 70%;
+  }
 }

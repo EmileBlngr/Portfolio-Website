@@ -17,7 +17,8 @@
     "career-label-now" : "Now",
     "career-cesi" : "CESI Engineering school Bordeaux",
     "career-cesi-diplome" : "Computer Engineering Diploma",
-    "career-cesi-text": "CESI is based on the Problem Based Learning (PBL) method of learning. I am currently in my 3rd year specializing in computer science.",
+
+    "career-cesi-text": "CESI is based on the Problem Based Learning (PBL) method, which places group projects in complete autonomy at the center of learning. I am currently in my 3rd year of specialization in computer science.",   
     "career-bac": "Val-de-Garonne High School, Marmande",
     "career-bac-diplome": "Scientific Baccalaureate Diploma",
     "career-bac-text": "Diploma obtained with the Highest Honors. My specialties were: Mathematics, Computer Science, and Engineering Science.",
@@ -35,5 +36,11 @@
     "career-watsoft-text7": "6 - Backend Development (.NET C#, using hexagonal architecture)",
     "career-cgi": "04/2023 - 07/2023 | CGI, Le Haillan",
     "career-cgi-exp": "Digital Designer Internship",
-    "career-cgi-text": "As part of a development team following the Agile Scrum methodology, I contributed to the creation of two internal mobile applications using React Native. I participated in designing the application mockups (UI design), brainstorming on business logic, and frontend development under the guidance of a Tech Lead."
+    "career-cgi-text": "As part of a development team following the Agile Scrum methodology, I contributed to the creation of two internal mobile applications using React Native. I participated in designing the application mockups (UI design), brainstorming on business logic, and frontend development under the guidance of a Tech Lead.",
+    "career-rauzan": "08/2022 | Caves de Rauzan, Rauzan",
+    "career-rauzan-exp": "Cellar Employee",
+    "career-rauzan-text": "I performed cleaning and maintenance tasks, various other cellar work, and participated in the Crémant harvest.",
+    "career-girondehabitat": "01/2018 | Gironde Habitat, Bordeaux",
+    "career-girondehabitat-exp": "Observation Internship in the Legal Department",
+    "career-girondehabitat-text": "3rd-year observation internship. Introduction to the professional and legal environment."
 }

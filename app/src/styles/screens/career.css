@@ -1,5 +1,6 @@
 .timeline-container {
-    padding-right: 5%
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
 
 .timeline-icon {
@@ -13,6 +14,8 @@
 }
 
 @media (max-width: 768px) {
-
+    .timeline-container {
+        padding-bottom: 15%;
+    }
 }
 
