@@ -1,0 +1,22 @@
+.projects-list-container {
+  display : flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 -10px
+}
+
+
+@media (max-width: 1185px) {
+  .projects-list-container {
+    padding-bottom: 5%;
+  }
+}
+@media (max-width: 768px) {
+  .projects-list-container {
+    padding-bottom: 10%;
+  }
+}
+@media (max-width: 498px) {
+
+}

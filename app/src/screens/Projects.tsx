@@ -13,7 +13,6 @@ export default function Projects() {
 
     return(
         <div className="container-global-projects">
-            <Title>{<FormattedMessage id="projectsTab"/>}</Title>
             <ProjectsList projects={projectsList} />
         </div>
     );
