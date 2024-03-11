@@ -1,0 +1,12 @@
+.modal-project-container {
+  width: 100%;
+  background-color: red;
+}
+
+@media (max-width: 1250px) {
+
+}
+
+@media (max-width: 600px) {
+
+}

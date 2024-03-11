@@ -39,7 +39,9 @@
         font-size: 1.1em;
         padding-bottom: 3%;
         text-indent: 5%;
-
+    }
+    .container-global-about {
+        padding-bottom: 15%;
     }
 }
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import IProjectAbstract from "../interface/IProjectAbstract";
 import "../styles/components/projectCard.css";
 import Card from '@mui/material/Card';
@@ -9,11 +9,17 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { FormattedMessage } from "react-intl";
 import Icon from "@mui/material/Icon";
+import ModalProject from "./ModalProject.tsx";
 interface ProjectCardProps {
     project: IProjectAbstract;
   }
-  
+
 const ProjectCard = ({project}: ProjectCardProps) => {
+    const [openModalProject, setOpenModalProject] = useState(false);
+    const handleOpen = () => {
+        setOpenModalProject(true);
+    };
+
     return(
         <div className="project-card-container">
             <Card sx={{height: 1}}>
@@ -35,11 +41,15 @@ const ProjectCard = ({project}: ProjectCardProps) => {
                     </Typography>
                 </CardContent>
                 <CardActions sx={{height: 1/8, display: "flex", justifyContent:"right"}}>
-                    <Button size="medium" sx={{bgcolor: "rgb(30, 56, 133, 0.2)"}}>
-                        <Icon sx={{}}>visibility</Icon>
+                    <Button onClick={handleOpen} size="medium" sx={{bgcolor: "rgb(30, 56, 133, 0.2)"}}>
+                        <Icon>visibility</Icon>
                     </Button>
                 </CardActions>
             </Card>
+            <ModalProject 
+                open={openModalProject} 
+                setOpen={setOpenModalProject}
+                idProject={project.idProject}/>
         </div>
     );
 }

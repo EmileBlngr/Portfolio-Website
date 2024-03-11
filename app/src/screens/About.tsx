@@ -4,7 +4,7 @@ import '../styles/screens/about.css'
 
 export default function About() {
     return(
-        <div className="container-global-content">
+        <div className="container-global-about">
             <p className="citation">
                 <FormattedMessage id="about-citation"/>
             </p>

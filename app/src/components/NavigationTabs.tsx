@@ -127,7 +127,7 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
           <List>
             <ListItemButton onClick={() => handleDrawerItemClick("/about", "aboutTab")}>
             <ListItemIcon><InfoIcon/></ListItemIcon>
-              <ListItemText primary={<FormattedMessage id="aboutTab"/>} />
+              <ListItemText primary={<FormattedMessage id="aboutTab"/>}/>
             </ListItemButton>
             <ListItemButton onClick={() => handleDrawerItemClick("/career", "careerTab")}>
               <ListItemIcon><RocketLaunchIcon/></ListItemIcon>
