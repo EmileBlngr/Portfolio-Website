@@ -1,7 +1,7 @@
 import React from "react";
-import IProjectAbstract from "../interface/IProjectAbstract";
+import IProjectAbstract from "../../interface/IProjectAbstract.tsx";
 import ProjectCard from "./ProjectCard.tsx";
-import "../styles/components/projectsList.css";
+import "../../styles/components/projectsList.css";
 
 interface ProjectsListProps {
     projects: IProjectAbstract[];

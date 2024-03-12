@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import IProjectAbstract from "../interface/IProjectAbstract";
-import "../styles/components/projectCard.css";
+import IProjectAbstract from "../../interface/IProjectAbstract.tsx";
+import "../../styles/components/projectCard.css";
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';

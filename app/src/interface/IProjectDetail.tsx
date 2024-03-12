@@ -2,9 +2,10 @@ import { Key } from "react";
 
 interface IProjectDetail {
     idProject: Key;
-    image: string;
+    images: string[];
     title: string;
-    description: string;
+    detail: string[];
+    contentHeight: string;
     projectType: string;
 }
 export default IProjectDetail;

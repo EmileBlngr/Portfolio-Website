@@ -67,6 +67,7 @@
     "project-title-cesinova" : "Fusée CESINOVA V1",
     "project-title-funkytown" : "Projet Funkytown",
     "project-title-www" : "Projet Worldwide Weather Watcher",
-    "project-title-github" : "Autres projets Github"
-
+    "project-title-github" : "Autres projets Github",
+    "project-detail-cozyhomes1" : "CozyHomes est un début de site de location de logement, hôtel, maison ou autre type d'hébergement.",
+    "project-detail-cozyhomes2" : "J'ai uniquement travaillé sur la partie frontend, que j'ai réalisée à l'aide du framework React."
 }

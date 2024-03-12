@@ -1,6 +1,13 @@
 .modal-project-container {
   width: 100%;
-  background-color: red;
+}
+
+.project-button-label {
+  padding-right: 5%;
+}
+
+.modal-title {
+  text-align: center;
 }
 
 @media (max-width: 1250px) {

@@ -5,80 +5,91 @@ import IProjectDetail from "../interface/IProjectDetail.tsx";
 export const projectsDetail: IProjectDetail[] = [
     {
         idProject : 1,
-        image : cozyHomes,
+        images : [cozyHomes],
         title : "project-title-cozyhomes",
-        description : "project-description-cozyhomes",
+        detail : ["project-detail-cozyhomes1","project-detail-cozyhomes2"],
         projectType : "project-type-personnal",
+        contentHeight: "80%"
     },
     {
         idProject : 2,
-        image : easySave,
+        images : [easySave],
         title : "project-title-easysave",
-        description : "project-description-easysave",
+        detail : ["project-description-easysave"],
         projectType : "project-type-academic",
+        contentHeight: "80%"
     },
     {
         idProject : 3,
-        image : portfolio,
+        images : [portfolio],
         title : "project-title-portfolio",
-        description : "project-description-portfolio",
+        detail : ["project-description-portfolio"],
         projectType : "project-type-personnal",
+        contentHeight: "80%"
     },
     {
         idProject : 4,
-        image : dbmanager,
+        images : [dbmanager],
         title : "project-title-dbmanager",
-        description : "project-description-dbmanager",
+        detail : ["project-description-dbmanager"],
         projectType : "project-type-academic",
+        contentHeight: "80%"
     },
     {
         idProject : 5,
-        image : internship,
+        images : [internship],
         title : "project-title-internship-website",
-        description : "project-description-internship-website",
+        detail : ["project-description-internship-website"],
         projectType : "project-type-academic",
+        contentHeight: "80%"
     },
     {
         idProject : 6,
-        image : adminsi,
+        images : [adminsi],
         title : "project-title-adminsi",
-        description : "project-description-adminsi",
+        detail : ["project-description-adminsi"],
         projectType : "project-type-academic",
+        contentHeight: "80%"
     },
     {
         idProject : 7,
-        image : conceptionbdd,
+        images : [conceptionbdd],
         title : "project-title-conceptionbdd",
-        description : "project-description-conceptionbdd",
+        detail : ["project-description-conceptionbdd"],
         projectType : "project-type-academic",
+        contentHeight: "80%"
     },
     {
         idProject : 8,
-        image : cesinova,
+        images : [cesinova],
         title : "project-title-cesinova",
-        description : "project-description-cesinova",
+        detail : ["project-description-cesinova"],
         projectType : "project-type-associative",
+        contentHeight: "80%"
     },
     {
         idProject : 9,
-        image : funkytown,
+        images : [funkytown],
         title : "project-title-funkytown",
-        description : "project-description-funkytown",
+        detail : ["project-description-funkytown"],
         projectType : "project-type-academic",
+        contentHeight: "80%"
     },
     {
         idProject : 10,
-        image : www,
+        images : [www],
         title : "project-title-www",
-        description : "project-description-www",
+        detail : ["project-description-www"],
         projectType : "project-type-academic",
+        contentHeight: "80%"
     },
     {
         idProject : 11,
-        image : github,
+        images : [github],
         title : "project-title-github",
-        description : "project-description-github",
+        detail : ["project-description-github"],
         projectType : "project-type-personnal",
+        contentHeight: "80%"
     },
 ];
 
