@@ -15,3 +15,7 @@ export {default as cesinova}  from './img/projects/cesinova.png';
 export {default as funkytown}  from './img/projects/funkytown.png';
 export {default as www}  from './img/projects/www.png';
 export {default as github}  from './img/projects/github.png';
+export {default as cozyhomes1}  from './img/projects/cozyhomes1.png';
+export {default as cozyhomes2}  from './img/projects/cozyhomes2.png';
+export {default as easysave1}  from './img/projects/easysave1.png';
+export {default as easysave2}  from './img/projects/easysave2.png';

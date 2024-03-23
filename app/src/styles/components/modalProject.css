@@ -4,14 +4,17 @@
 
 .project-button-label {
   padding-right: 5%;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .modal-title {
   text-align: center;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1185px) {
 
+  
 }
 
 @media (max-width: 600px) {

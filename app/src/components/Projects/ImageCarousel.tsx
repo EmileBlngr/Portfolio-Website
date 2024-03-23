@@ -1,34 +1,89 @@
-import React from "react";
+import React, { useState } from "react";
 //import "../styles/components/imageCarousel.css";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import IconButton from "@mui/material/IconButton";
+import Icon from "@mui/material/Icon";
+import Box from "@mui/material/Box";
+import { IImageDetail } from "../../interface/IProjectDetail";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 interface ImageCarouselProps {
-    images: string[];
+    images: IImageDetail[];
+    isImageExpanded: boolean;
+    setIsImageExpanded: React.Dispatch<React.SetStateAction<boolean>>;
   }
-const ImageCarousel = ({images}: ImageCarouselProps) => {
+const ImageCarousel = ({images, isImageExpanded, setIsImageExpanded}: ImageCarouselProps) => {
+    const [indexImage, setIndexImage] = useState<number>(0)
+
+    const nextImage = () => {
+      setIndexImage(indexImage + 1);
+    }
+
+    const previousImage = () => {
+      setIndexImage(indexImage - 1);
+    }
+
+    const handleImageClick = () => {
+      setIsImageExpanded(!isImageExpanded);
+    }
+
+    const is600px = useMediaQuery('(max-width:600px)');
+    const is1185px = useMediaQuery('(max-width:1185px)');
+
+    const carouselStyle = {
+      alignSelf: 'center', 
+      display: 'flex', 
+      flexDirection: 'column',
+      alignItems: 'center', 
+      position: isImageExpanded ? 'absolute' : 'normal',
+      width: isImageExpanded ? '80vw' : '100%',
+      height: isImageExpanded ? '90vh' : '50%',
+    }
+    const boxImageStyle = {
+      width: isImageExpanded ? '70vw' : '80%',
+      height: isImageExpanded ? '90vh' : '100%',
+      display: 'flex',
+      alignItems: isImageExpanded ? 'center' : 'stretch',
+      justifyContent: 'center',
+    }
+
     return(
-        <Card sx={{ width: 320, alignSelf: 'center' }}>  
-          <img
-            src="https://images.unsplash.com/photo-1527549993586-dff825b37782?auto=format&fit=crop&w=286"
-            srcSet="https://images.unsplash.com/photo-1527549993586-dff825b37782?auto=format&fit=crop&w=286&dpr=2 2x"
-            loading="lazy"
-            alt=""
-          />
-        <CardContent>
-          <div>
-            <Typography fontSize="lg" fontWeight="lg">
-              $2,900
-            </Typography>
-          </div>
-          <Button
-            sx={{ ml: 'auto', alignSelf: 'center', fontWeight: 600 }}
+      <Card sx={{...carouselStyle}}>  
+        <Box sx={{height: 1, width: 1, display: 'flex', flexDirection: 'row'}}>
+          <IconButton
+            aria-label="previous"
+            onClick={previousImage}
+            disabled={indexImage === 0}
+            sx={{width:1/10, borderRadius: 0, position: 'relative', top: '50%', left: 0, transform: 'translateY(-50%)' }}
           >
-            Explore
-          </Button>
-        </CardContent>
+            <Icon>arrow_back_ios</Icon>
+          </IconButton>
+
+          <Box onClick={handleImageClick} sx={{...boxImageStyle}}>
+            <img
+              style={{
+                alignSelf: "center", width: '100%', 
+                objectFit: 'cover', cursor: 'pointer',
+                height: 'auto',
+                minWidth: '100%',
+              }}
+              src={images[indexImage].image}
+              loading="lazy"
+              alt="current-project"
+            />
+          </Box>
+          <IconButton
+            aria-label="next"
+            onClick={nextImage}
+            disabled={indexImage === images.length - 1}
+            sx={{width:1/10, borderRadius: 0, position: 'relative', top: '50%', right: 0, transform: 'translateY(-50%)' }}
+          >
+            <Icon>arrow_forward_ios</Icon>
+          </IconButton>
+        </Box>
       </Card>
     );
 }

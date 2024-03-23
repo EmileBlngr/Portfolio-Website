@@ -31,7 +31,7 @@ h2 {
 .profile-container {
   padding: 0;
   margin: 0;
-  border-radius: 0;
+  border-radius: 0; 
 }
 .profile-content {
   display: flex;
@@ -48,7 +48,9 @@ h2 {
 .row {
   width: 35%;
 }
-h2, h4, span, div {
+.profile-container h4, 
+.profile-container span, 
+.profile-container div {
   color: rgb(30, 56, 133)
 }
 }

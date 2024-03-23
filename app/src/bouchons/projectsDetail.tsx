@@ -1,19 +1,20 @@
 import { Key } from "react";
-import { adminsi, cesinova, conceptionbdd, cozyHomes, dbmanager, easySave, funkytown, github, internship, portfolio, www } from "../assets/_export.tsx";
-import IProjectDetail from "../interface/IProjectDetail.tsx";
+import { adminsi, cesinova, conceptionbdd, cozyhomes1, cozyhomes2, github, dbmanager, easySave, funkytown, internship, portfolio, www, easysave2, easysave1 } from "../assets/_export.tsx";
+import { IProjectDetail } from "../interface/IProjectDetail.tsx";
+
 
 export const projectsDetail: IProjectDetail[] = [
     {
         idProject : 1,
-        images : [cozyHomes],
+        images : [{image: cozyhomes2, height: '80%'}, {image: cozyhomes1, height: '80%'}],
         title : "project-title-cozyhomes",
         detail : ["project-detail-cozyhomes1","project-detail-cozyhomes2"],
         projectType : "project-type-personnal",
-        contentHeight: "80%"
+        contentHeight: "90%"
     },
     {
         idProject : 2,
-        images : [easySave],
+        images : [{image: easySave, height: '85%'}, {image: easysave1, height: '85%'}, {image: easysave2, height: '85%'}],
         title : "project-title-easysave",
         detail : ["project-description-easysave"],
         projectType : "project-type-academic",
