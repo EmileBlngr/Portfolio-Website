@@ -2,14 +2,11 @@ import { Key } from "react";
 
 export interface IProjectDetail {
     idProject: Key;
-    images: IImageDetail[];
+    images: string[];
+    enableExtending: boolean;
     title: string;
     detail: string[];
+    link: string;
     contentHeight: string;
     projectType: string;
-}
-
-export interface IImageDetail {
-    image: string,
-    height: string
 }

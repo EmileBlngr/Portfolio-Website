@@ -1,94 +1,116 @@
 import { Key } from "react";
-import { adminsi, cesinova, conceptionbdd, cozyhomes1, cozyhomes2, github, dbmanager, easySave, funkytown, internship, portfolio, www, easysave2, easysave1 } from "../assets/_export.tsx";
+import { adminsi, cesinova, conceptionbdd, cozyhomes1, cozyhomes2, github, dbmanager, easySave, funkytown, internship, portfolio, www, easysave2, easysave1, internship1, internship3, internship4, internship2 } from "../assets/_export.tsx";
 import { IProjectDetail } from "../interface/IProjectDetail.tsx";
 
 
 export const projectsDetail: IProjectDetail[] = [
     {
         idProject : 1,
-        images : [{image: cozyhomes2, height: '80%'}, {image: cozyhomes1, height: '80%'}],
+        images : [cozyhomes2, cozyhomes1],
+        enableExtending: true,
         title : "project-title-cozyhomes",
         detail : ["project-detail-cozyhomes1","project-detail-cozyhomes2"],
+        link : "https://github.com/EmileBlngr/CozyHomes",
         projectType : "project-type-personnal",
         contentHeight: "90%"
     },
     {
         idProject : 2,
-        images : [{image: easySave, height: '85%'}, {image: easysave1, height: '85%'}, {image: easysave2, height: '85%'}],
+        images : [easySave, easysave1, easysave2],
+        enableExtending: true,
         title : "project-title-easysave",
-        detail : ["project-description-easysave"],
+        detail : ["project-description-easysave1", "project-description-easysave2"],
+        link : "https://github.com/EmileBlngr/EasySave",
         projectType : "project-type-academic",
-        contentHeight: "80%"
+        contentHeight: "90%"
     },
     {
         idProject : 3,
         images : [portfolio],
+        enableExtending: true,
         title : "project-title-portfolio",
-        detail : ["project-description-portfolio"],
+        detail : ["project-description-portfolio1", "project-description-portfolio2"],
+        link : "https://github.com/EmileBlngr/Portfolio-Website",
         projectType : "project-type-personnal",
-        contentHeight: "80%"
+        contentHeight: "90%"
     },
     {
         idProject : 4,
         images : [dbmanager],
+        enableExtending: false,
         title : "project-title-dbmanager",
-        detail : ["project-description-dbmanager"],
+        detail : ["project-description-dbmanager1", "project-description-dbmanager2"],
+        link : "",
         projectType : "project-type-academic",
         contentHeight: "80%"
     },
     {
         idProject : 5,
-        images : [internship],
+        images : [internship, internship1, internship2, internship3, internship4],
+        enableExtending: true,
         title : "project-title-internship-website",
-        detail : ["project-description-internship-website"],
+        detail : ["project-description-internship-website1", "project-description-internship-website2"],
+        link : "https://github.com/Adarito49/Projet-Site-WEB",
         projectType : "project-type-academic",
-        contentHeight: "80%"
+        contentHeight: "90%"
     },
     {
         idProject : 6,
         images : [adminsi],
+        enableExtending: true,
         title : "project-title-adminsi",
         detail : ["project-description-adminsi"],
+        link : "",
         projectType : "project-type-academic",
         contentHeight: "80%"
     },
     {
         idProject : 7,
         images : [conceptionbdd],
+        enableExtending: true,
         title : "project-title-conceptionbdd",
         detail : ["project-description-conceptionbdd"],
+        link : "",
         projectType : "project-type-academic",
         contentHeight: "80%"
     },
     {
         idProject : 8,
         images : [cesinova],
+        enableExtending: true,
         title : "project-title-cesinova",
         detail : ["project-description-cesinova"],
+        link : "",
         projectType : "project-type-associative",
         contentHeight: "80%"
     },
     {
         idProject : 9,
         images : [funkytown],
+        enableExtending: true,
         title : "project-title-funkytown",
         detail : ["project-description-funkytown"],
+        link : "",
         projectType : "project-type-academic",
         contentHeight: "80%"
     },
     {
         idProject : 10,
         images : [www],
+        enableExtending: true,
         title : "project-title-www",
         detail : ["project-description-www"],
+        link : "",
         projectType : "project-type-academic",
         contentHeight: "80%"
     },
     {
         idProject : 11,
         images : [github],
+        enableExtending: true,
         title : "project-title-github",
         detail : ["project-description-github"],
+        link : "",
         projectType : "project-type-personnal",
         contentHeight: "80%"
     },

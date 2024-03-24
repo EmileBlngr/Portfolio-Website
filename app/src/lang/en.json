@@ -71,5 +71,11 @@
     "project-title-cesinova" : "CESINOVA V1 rocketship",
     "project-title-funkytown" : "Funkytown Project",
     "project-title-www" : "Worldwide Weather Watcher Project",
-    "project-title-github" : "Other GitHub Projects"
+    "project-title-github" : "Other GitHub Projects",
+    "project-detail-cozyhomes1": "CozyHomes is a starting point for a lodging rental website, hotel, house, or other accommodation type.",
+    "project-detail-cozyhomes2": "I only worked on the frontend part, which I developed using the React framework.",
+    "project-description-easysave1": "EasySave is a backup software developed in C# .NET, featuring a WPF graphical interface and MVVM architecture.",
+    "project-description-easysave2": "The software allows launching full or differential backups in parallel or sequentially.",
+    "project-description-portfolio1": "The website you are currently browsing!",
+    "project-description-portfolio2": "Developed in React, using the MaterialUI UI component library."
 }

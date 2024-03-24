@@ -1,21 +1,18 @@
 import React, { useState } from "react";
-//import "../styles/components/imageCarousel.css";
+import "../../styles/components/imageCarousel.css";
 import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import Icon from "@mui/material/Icon";
 import Box from "@mui/material/Box";
-import { IImageDetail } from "../../interface/IProjectDetail";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
 interface ImageCarouselProps {
-    images: IImageDetail[];
+    images: string[];
+    enableExtending: boolean;
     isImageExpanded: boolean;
     setIsImageExpanded: React.Dispatch<React.SetStateAction<boolean>>;
   }
-const ImageCarousel = ({images, isImageExpanded, setIsImageExpanded}: ImageCarouselProps) => {
+const ImageCarousel = ({images, enableExtending, isImageExpanded, setIsImageExpanded}: ImageCarouselProps) => {
     const [indexImage, setIndexImage] = useState<number>(0)
 
     const nextImage = () => {
@@ -27,11 +24,9 @@ const ImageCarousel = ({images, isImageExpanded, setIsImageExpanded}: ImageCarou
     }
 
     const handleImageClick = () => {
-      setIsImageExpanded(!isImageExpanded);
+      if (enableExtending) 
+        setIsImageExpanded(!isImageExpanded);
     }
-
-    const is600px = useMediaQuery('(max-width:600px)');
-    const is1185px = useMediaQuery('(max-width:1185px)');
 
     const carouselStyle = {
       alignSelf: 'center', 
@@ -41,6 +36,7 @@ const ImageCarousel = ({images, isImageExpanded, setIsImageExpanded}: ImageCarou
       position: isImageExpanded ? 'absolute' : 'normal',
       width: isImageExpanded ? '80vw' : '100%',
       height: isImageExpanded ? '90vh' : '50%',
+      marginTop: '2%'
     }
     const boxImageStyle = {
       width: isImageExpanded ? '70vw' : '80%',
@@ -64,13 +60,8 @@ const ImageCarousel = ({images, isImageExpanded, setIsImageExpanded}: ImageCarou
 
           <Box onClick={handleImageClick} sx={{...boxImageStyle}}>
             <img
-              style={{
-                alignSelf: "center", width: '100%', 
-                objectFit: 'cover', cursor: 'pointer',
-                height: 'auto',
-                minWidth: '100%',
-              }}
-              src={images[indexImage].image}
+              className="carousel-current-img"
+              src={images[indexImage]}
               loading="lazy"
               alt="current-project"
             />

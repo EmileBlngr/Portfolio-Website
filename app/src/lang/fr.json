@@ -71,5 +71,13 @@
     "project-title-www" : "Projet Worldwide Weather Watcher",
     "project-title-github" : "Autres projets Github",
     "project-detail-cozyhomes1" : "CozyHomes est un début de site de location de logement, hôtel, maison ou autre type d'hébergement.",
-    "project-detail-cozyhomes2" : "J'ai uniquement travaillé sur la partie frontend, que j'ai réalisée à l'aide du framework React."
+    "project-detail-cozyhomes2" : "J'ai uniquement travaillé sur la partie frontend, que j'ai réalisée à l'aide du framework React.",
+    "project-description-easysave1" : "EasySave est un logiciel de sauvegarde, développé en C# .NET, avec une interface graphique WPF et une architecture MVVM.",
+    "project-description-easysave2" : "Le logiciel permet de lancer en parallèle ou en séquentiel des sauvegardes totales ou différentielles.",
+    "project-description-portfolio1" : "Le site sur lequel vous êtes en train de naviguer !",
+    "project-description-portfolio2" : "Développé en React, avec la librairie de composants UI MaterialUI.",
+    "project-description-dbmanager1" : "Ce logiciel permet de gérer la base de données d'une entreprise de vente. nous pouvons y effectuer diverses actions de création, modification ou suppression.",
+    "project-description-dbmanager2" : "Il est développé en C++ .NET avec une interface graphique WinForms.",
+    "project-description-internship-website1" : "Ce site web est une plateforme qui permet d'aider les étudiants dans leur recherche de stage en regroupant les offres d'emploi et en permettant de postuler directement depuis cesi-stages.",
+    "project-description-internship-website2" : "Il est développé en HTML/CSS/JS/PHP avec le framework Laravel."
 }

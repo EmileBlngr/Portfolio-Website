@@ -48,6 +48,9 @@ const ModalProject = ({open, setOpen, idProject}: ModalProjectProps) => {
         if (open) {
             setDetailProject(getProject(idProject))
         }
+        else {
+            setIsImageExpanded(false)
+        }
     }, [open])
     //#endregion
     return(
@@ -63,9 +66,12 @@ const ModalProject = ({open, setOpen, idProject}: ModalProjectProps) => {
                     {detailProject.detail.map(ligne => {
                         return <p key={ligne}><FormattedMessage id={ligne} /></p>
                     })}
+                    
+                    {detailProject.link && <div>Github : <a href={detailProject.link}>{detailProject.link}</a></div>}
 
                     <ImageCarousel 
-                        images={detailProject.images} 
+                        images={detailProject.images}
+                        enableExtending={detailProject.enableExtending}
                         isImageExpanded={isImageExpanded}
                         setIsImageExpanded={setIsImageExpanded}/>
                     {!isImageExpanded ? (
