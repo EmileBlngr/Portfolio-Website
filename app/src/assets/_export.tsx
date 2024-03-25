@@ -23,3 +23,4 @@ export {default as cozyhomes1}  from './img/projects/cozyhomes1.png';
 export {default as cozyhomes2}  from './img/projects/cozyhomes2.png';
 export {default as easysave1}  from './img/projects/easysave1.png';
 export {default as easysave2}  from './img/projects/easysave2.png';
+export {default as adminsi1}  from './img/projects/adminsi1.png';

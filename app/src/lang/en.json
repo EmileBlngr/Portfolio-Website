@@ -77,5 +77,11 @@
     "project-description-easysave1": "EasySave is a backup software developed in C# .NET, featuring a WPF graphical interface and MVVM architecture.",
     "project-description-easysave2": "The software allows launching full or differential backups in parallel or sequentially.",
     "project-description-portfolio1": "The website you are currently browsing!",
-    "project-description-portfolio2": "Developed in React, using the MaterialUI UI component library."
+    "project-description-portfolio2": "Developed in React, using the MaterialUI UI component library.",
+    "project-description-dbmanager1": "This software allows managing the database of a sales company. Various actions such as creation, modification, or deletion can be performed.",
+    "project-description-dbmanager2": "It is developed in C++ .NET with a WinForms graphical interface and an MVC architecture.",
+    "project-description-internship-website1": "This website is a platform designed to assist students in their internship search by gathering job offers and enabling direct applications from cesi-stages.",
+    "project-description-internship-website2": "It is developed in HTML/CSS/JS/PHP using the Laravel framework.",
+    "project-description-adminsi1": "This project involves the redesign of the information system of the fictional company Abstergo, from firewall configuration to Active Directory setup, including the design of backup or authentication policies.",
+    "project-description-adminsi2": "We designed a LAN - DMZ - WAN architecture and simulated this internal network using VirtualBox virtual machines."
 }

@@ -77,7 +77,9 @@
     "project-description-portfolio1" : "Le site sur lequel vous êtes en train de naviguer !",
     "project-description-portfolio2" : "Développé en React, avec la librairie de composants UI MaterialUI.",
     "project-description-dbmanager1" : "Ce logiciel permet de gérer la base de données d'une entreprise de vente. nous pouvons y effectuer diverses actions de création, modification ou suppression.",
-    "project-description-dbmanager2" : "Il est développé en C++ .NET avec une interface graphique WinForms.",
+    "project-description-dbmanager2" : "Il est développé en C++ .NET avec une interface graphique WinForms et une architecture MVC.",
     "project-description-internship-website1" : "Ce site web est une plateforme qui permet d'aider les étudiants dans leur recherche de stage en regroupant les offres d'emploi et en permettant de postuler directement depuis cesi-stages.",
-    "project-description-internship-website2" : "Il est développé en HTML/CSS/JS/PHP avec le framework Laravel."
+    "project-description-internship-website2" : "Il est développé en HTML/CSS/JS/PHP avec le framework Laravel.",
+    "project-description-adminsi1" : "Ce projet consiste en la refonte du système d'information de l'entreprise fictive Abstergo, de la configuration des pare-feux au paramétrage de l'Active Directory en passant par la conception des stratégies de sauvegarde ou d'authentification.",
+    "project-description-adminsi2" : "Nous avons conçu une architecture LAN - DMZ - WAN et avons simulé ce réseau interne à l'aide de machines virtuelles VirtualBox."
 }

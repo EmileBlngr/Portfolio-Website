@@ -1,5 +1,5 @@
 import { Key } from "react";
-import { adminsi, cesinova, conceptionbdd, cozyhomes1, cozyhomes2, github, dbmanager, easySave, funkytown, internship, portfolio, www, easysave2, easysave1, internship1, internship3, internship4, internship2 } from "../assets/_export.tsx";
+import { adminsi, cesinova, conceptionbdd, cozyhomes1, cozyhomes2, github, dbmanager, easySave, funkytown, internship, portfolio, www, easysave2, easysave1, internship1, internship3, internship4, internship2, adminsi1 } from "../assets/_export.tsx";
 import { IProjectDetail } from "../interface/IProjectDetail.tsx";
 
 
@@ -56,13 +56,13 @@ export const projectsDetail: IProjectDetail[] = [
     },
     {
         idProject : 6,
-        images : [adminsi],
+        images : [adminsi1],
         enableExtending: true,
         title : "project-title-adminsi",
-        detail : ["project-description-adminsi"],
+        detail : ["project-description-adminsi1", "project-description-adminsi2"],
         link : "",
         projectType : "project-type-academic",
-        contentHeight: "80%"
+        contentHeight: "90%"
     },
     {
         idProject : 7,
