@@ -24,3 +24,7 @@ export {default as cozyhomes2}  from './img/projects/cozyhomes2.png';
 export {default as easysave1}  from './img/projects/easysave1.png';
 export {default as easysave2}  from './img/projects/easysave2.png';
 export {default as adminsi1}  from './img/projects/adminsi1.png';
+export {default as conceptionbdd1}  from './img/projects/conceptionbdd1.png';
+export {default as funkytown1}  from './img/projects/funkytown1.png';
+export {default as funkytown2}  from './img/projects/funkytown2.png';
+export {default as funkytown3}  from './img/projects/funkytown3.png';

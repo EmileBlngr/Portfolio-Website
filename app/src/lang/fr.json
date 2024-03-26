@@ -81,5 +81,9 @@
     "project-description-internship-website1" : "Ce site web est une plateforme qui permet d'aider les étudiants dans leur recherche de stage en regroupant les offres d'emploi et en permettant de postuler directement depuis cesi-stages.",
     "project-description-internship-website2" : "Il est développé en HTML/CSS/JS/PHP avec le framework Laravel.",
     "project-description-adminsi1" : "Ce projet consiste en la refonte du système d'information de l'entreprise fictive Abstergo, de la configuration des pare-feux au paramétrage de l'Active Directory en passant par la conception des stratégies de sauvegarde ou d'authentification.",
-    "project-description-adminsi2" : "Nous avons conçu une architecture LAN - DMZ - WAN et avons simulé ce réseau interne à l'aide de machines virtuelles VirtualBox."
+    "project-description-adminsi2" : "Nous avons conçu une architecture LAN - DMZ - WAN et avons simulé ce réseau interne à l'aide de machines virtuelles VirtualBox.",
+    "project-description-conceptionbdd1" : "Ce petit projet d'introduction aux bases de données consistait en la conception de la base de données d'une agence de voyage.",
+    "project-description-conceptionbdd2" : "Nous avons élaboré le MCD et les autres schémas de la BDD relationnelle, puis nous l'avons implémenté sur MySql.",
+    "project-description-funkytown1" : "Funkytown est une ville fictive pour laquelle nous avons été missionné à travers ce projet. Notre équipe a conçu l'architecture réseaux des bâtiments entourés en rouge.",
+    "project-description-funkytown2" : "Pour simuler tous les réseaux de la ville, nous avons réalisé une maquette PacketTracer sur laquelle nous avons configuré chaque équipement à l'aide des différents protocoles et de notre plan d'adressage ip."
 }

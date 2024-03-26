@@ -1,5 +1,5 @@
 import { Key } from "react";
-import { adminsi, cesinova, conceptionbdd, cozyhomes1, cozyhomes2, github, dbmanager, easySave, funkytown, internship, portfolio, www, easysave2, easysave1, internship1, internship3, internship4, internship2, adminsi1 } from "../assets/_export.tsx";
+import { adminsi, cesinova, conceptionbdd, cozyhomes1, cozyhomes2, github, dbmanager, easySave, funkytown, internship, portfolio, www, easysave2, easysave1, internship1, internship3, internship4, internship2, adminsi1, conceptionbdd1, funkytown1, funkytown2, funkytown3 } from "../assets/_export.tsx";
 import { IProjectDetail } from "../interface/IProjectDetail.tsx";
 
 
@@ -66,36 +66,26 @@ export const projectsDetail: IProjectDetail[] = [
     },
     {
         idProject : 7,
-        images : [conceptionbdd],
+        images : [conceptionbdd1],
         enableExtending: true,
         title : "project-title-conceptionbdd",
-        detail : ["project-description-conceptionbdd"],
+        detail : ["project-description-conceptionbdd1", "project-description-conceptionbdd2"],
         link : "",
         projectType : "project-type-academic",
-        contentHeight: "80%"
+        contentHeight: "90%"
     },
     {
         idProject : 8,
-        images : [cesinova],
+        images : [funkytown2, funkytown1, funkytown3],
         enableExtending: true,
-        title : "project-title-cesinova",
-        detail : ["project-description-cesinova"],
+        title : "project-title-funkytown",
+        detail : ["project-description-funkytown1", "project-description-funkytown2"],
         link : "",
-        projectType : "project-type-associative",
-        contentHeight: "80%"
+        projectType : "project-type-academic",
+        contentHeight: "90%"
     },
     {
         idProject : 9,
-        images : [funkytown],
-        enableExtending: true,
-        title : "project-title-funkytown",
-        detail : ["project-description-funkytown"],
-        link : "",
-        projectType : "project-type-academic",
-        contentHeight: "80%"
-    },
-    {
-        idProject : 10,
         images : [www],
         enableExtending: true,
         title : "project-title-www",
@@ -105,7 +95,7 @@ export const projectsDetail: IProjectDetail[] = [
         contentHeight: "80%"
     },
     {
-        idProject : 11,
+        idProject : 10,
         images : [github],
         enableExtending: true,
         title : "project-title-github",
@@ -114,6 +104,16 @@ export const projectsDetail: IProjectDetail[] = [
         projectType : "project-type-personnal",
         contentHeight: "80%"
     },
+    // {
+    //     idProject : 8,
+    //     images : [cesinova],
+    //     enableExtending: true,
+    //     title : "project-title-cesinova",
+    //     detail : ["project-description-cesinova"],
+    //     link : "",
+    //     projectType : "project-type-associative",
+    //     contentHeight: "80%"
+    // },
 ];
 
 export const getProject = (idProject : Key) : IProjectDetail => {

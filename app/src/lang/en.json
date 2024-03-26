@@ -83,5 +83,9 @@
     "project-description-internship-website1": "This website is a platform designed to assist students in their internship search by gathering job offers and enabling direct applications from cesi-stages.",
     "project-description-internship-website2": "It is developed in HTML/CSS/JS/PHP using the Laravel framework.",
     "project-description-adminsi1": "This project involves the redesign of the information system of the fictional company Abstergo, from firewall configuration to Active Directory setup, including the design of backup or authentication policies.",
-    "project-description-adminsi2": "We designed a LAN - DMZ - WAN architecture and simulated this internal network using VirtualBox virtual machines."
+    "project-description-adminsi2": "We designed a LAN - DMZ - WAN architecture and simulated this internal network using VirtualBox virtual machines.",
+    "project-description-conceptionbdd1": "This small project, serving as an introduction to databases, involved designing the database for a travel agency.",
+    "project-description-conceptionbdd2": "We developed the Entity-Relationship Diagram (ERD) and other schemas for the relational database, then implemented it on MySQL.",
+    "project-description-funkytown1": "Funkytown is a fictional city for which we were tasked through this project. Our team designed the network architecture for the buildings outlined in red.",
+    "project-description-funkytown2": "To simulate all the networks in the city, we created a PacketTracer model in which we configured each equipment using various protocols and our IP addressing plan."
 }

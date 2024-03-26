@@ -53,32 +53,32 @@ const projectsAbstract: IProjectAbstract[] = [
     },
     {
         idProject : 8,
-        image : cesinova,
-        title : "project-title-cesinova",
-        description : "project-description-cesinova",
-        projectType : "project-type-associative",
-    },
-    {
-        idProject : 9,
         image : funkytown,
         title : "project-title-funkytown",
         description : "project-description-funkytown",
         projectType : "project-type-academic",
     },
     {
-        idProject : 10,
+        idProject : 9,
         image : www,
         title : "project-title-www",
         description : "project-description-www",
         projectType : "project-type-academic",
     },
     {
-        idProject : 11,
+        idProject : 10,
         image : github,
         title : "project-title-github",
         description : "project-description-github",
         projectType : "project-type-personnal",
     },
+    // {
+    //     idProject : 8,
+    //     image : cesinova,
+    //     title : "project-title-cesinova",
+    //     description : "project-description-cesinova",
+    //     projectType : "project-type-associative",
+    // },
 ];
 
 export default projectsAbstract;

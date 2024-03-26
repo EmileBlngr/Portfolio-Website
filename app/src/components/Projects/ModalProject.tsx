@@ -39,10 +39,16 @@ const ModalProject = ({open, setOpen, idProject}: ModalProjectProps) => {
         display: 'flex', 
         flexDirection: 'column', 
       };
-
-    const handleClose = () => {
-        setOpen(false);
-    };
+    
+    //Empêche la sortie de la modal en cas de clic hors du cadre
+    const handleCloseModal = (event, reason) => {
+        if (reason !== 'backdropClick') {
+          setOpen(false)
+        }
+      }
+    const handleCloseModalByButton = () => {
+        setOpen(false)
+    }
     //#region useEffect
     useEffect(() => {
         if (open) {
@@ -56,7 +62,7 @@ const ModalProject = ({open, setOpen, idProject}: ModalProjectProps) => {
     return(
         <Modal
             open={open}
-            onClose={handleClose}
+            onClose={handleCloseModal}
         >
             <div className="modal-project-container">
                <Box sx={{ ...modalStyle }}>
@@ -75,7 +81,7 @@ const ModalProject = ({open, setOpen, idProject}: ModalProjectProps) => {
                         isImageExpanded={isImageExpanded}
                         setIsImageExpanded={setIsImageExpanded}/>
                     {!isImageExpanded ? (
-                       <Button onClick={handleClose}
+                       <Button onClick={handleCloseModalByButton}
                         sx={{
                             backgroundColor: theme.palette.primary.main,
                             color: "white",
