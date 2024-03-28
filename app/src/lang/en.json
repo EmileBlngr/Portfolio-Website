@@ -6,6 +6,7 @@
     "projectsTab": "Projects",
     "skillsTab": "Skills",
     "resumeTab": "My Resume",
+    "languagesTitle" : "Languages",
 
     "profileTitle": "Computer engineering student",
 
@@ -55,7 +56,7 @@
     "project-description-portfolio": "This website! Developed in React.js.",
     "project-description-dbmanager" : "SQL Server database management software.",
     "project-description-internship-website" : "Internship search website designed for CESI students.",
-    "project-description-adminsi" : "Redesign of the Abstergo company information system",
+    "project-description-adminsi" : "Redesign of the Abstergo company information system..",
     "project-description-conceptionbdd" : "Designing the MySQL database for a travel agency.",
     "project-description-cesinova" : "Creation of a mini-rocket for the ArianeGroup competition.",
     "project-description-funkytown" : "Designing the network architecture of a fictional company.",
@@ -87,5 +88,6 @@
     "project-description-conceptionbdd1": "This small project, serving as an introduction to databases, involved designing the database for a travel agency.",
     "project-description-conceptionbdd2": "We developed the Entity-Relationship Diagram (ERD) and other schemas for the relational database, then implemented it on MySQL.",
     "project-description-funkytown1": "Funkytown is a fictional city for which we were tasked through this project. Our team designed the network architecture for the buildings outlined in red.",
-    "project-description-funkytown2": "To simulate all the networks in the city, we created a PacketTracer model in which we configured each equipment using various protocols and our IP addressing plan."
+    "project-description-funkytown2": "To simulate all the networks in the city, we created a PacketTracer model in which we configured each equipment using various protocols and our IP addressing plan.",
+    "project-description-www1" : "Worldwide Weather Watcher is a weather station installed on an Arduino Uno board. It allows you to take different readings, such as temperature or atmospheric pressure, using sensors."
 }

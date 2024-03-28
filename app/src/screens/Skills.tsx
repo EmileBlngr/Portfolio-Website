@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { FormattedMessage } from 'react-intl';
 
 //import '../styles/screens/skills.css'
@@ -8,7 +8,11 @@ export default function Skills() {
 
     return(
         <div className="container-global-accueil">
-            <Title>{<FormattedMessage id="skillsTab"/>}</Title>
+            <Title>Soft Skills</Title>
+
+            <Title>Hard Skills</Title>
+
+            <Title><FormattedMessage id="languagesTitle" /></Title>
         </div>
     );
 }

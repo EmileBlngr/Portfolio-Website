@@ -1,5 +1,5 @@
 import { Key } from "react";
-import { adminsi, cesinova, conceptionbdd, cozyhomes1, cozyhomes2, github, dbmanager, easySave, funkytown, internship, portfolio, www, easysave2, easysave1, internship1, internship3, internship4, internship2, adminsi1, conceptionbdd1, funkytown1, funkytown2, funkytown3 } from "../assets/_export.tsx";
+import { adminsi, cesinova, conceptionbdd, cozyhomes1, cozyhomes2, github, dbmanager, easySave, funkytown, internship, portfolio, www, easysave2, easysave1, internship1, internship3, internship4, internship2, adminsi1, conceptionbdd1, funkytown1, funkytown2, funkytown3, www2, www1 } from "../assets/_export.tsx";
 import { IProjectDetail } from "../interface/IProjectDetail.tsx";
 
 
@@ -56,7 +56,7 @@ export const projectsDetail: IProjectDetail[] = [
     },
     {
         idProject : 6,
-        images : [adminsi1],
+        images : [adminsi, adminsi1],
         enableExtending: true,
         title : "project-title-adminsi",
         detail : ["project-description-adminsi1", "project-description-adminsi2"],
@@ -86,21 +86,21 @@ export const projectsDetail: IProjectDetail[] = [
     },
     {
         idProject : 9,
-        images : [www],
+        images : [www, www1, www2],
         enableExtending: true,
         title : "project-title-www",
-        detail : ["project-description-www"],
+        detail : ["project-description-www1"],
         link : "",
         projectType : "project-type-academic",
-        contentHeight: "80%"
+        contentHeight: "90%"
     },
     {
         idProject : 10,
         images : [github],
-        enableExtending: true,
+        enableExtending: false,
         title : "project-title-github",
         detail : ["project-description-github"],
-        link : "",
+        link : "https://github.com/EmileBlngr",
         projectType : "project-type-personnal",
         contentHeight: "80%"
     },

@@ -7,6 +7,7 @@
     "skillsTab": "Compétences",
     "resumeTab": "Mon CV",
 
+    "languagesTitle" : "Langues",
     "profileTitle": "Étudiant ingénieur en informatique",
 
     "about-citation": "Développeur passionné, j'allie analyse et compétences techniques pour créer des solutions innovantes.",
@@ -85,5 +86,7 @@
     "project-description-conceptionbdd1" : "Ce petit projet d'introduction aux bases de données consistait en la conception de la base de données d'une agence de voyage.",
     "project-description-conceptionbdd2" : "Nous avons élaboré le MCD et les autres schémas de la BDD relationnelle, puis nous l'avons implémenté sur MySql.",
     "project-description-funkytown1" : "Funkytown est une ville fictive pour laquelle nous avons été missionné à travers ce projet. Notre équipe a conçu l'architecture réseaux des bâtiments entourés en rouge.",
-    "project-description-funkytown2" : "Pour simuler tous les réseaux de la ville, nous avons réalisé une maquette PacketTracer sur laquelle nous avons configuré chaque équipement à l'aide des différents protocoles et de notre plan d'adressage ip."
+    "project-description-funkytown2" : "Pour simuler tous les réseaux de la ville, nous avons réalisé une maquette PacketTracer sur laquelle nous avons configuré chaque équipement à l'aide des différents protocoles et de notre plan d'adressage ip.",
+    "project-description-www1" : "Worldwide Weather Watcher est une station météorologique installée sur une carte Arduino Uno. Elle permet de faire différents relevés, comme la température ou la pression atmosphérique, à l'aide de capteurs."
+
 }
