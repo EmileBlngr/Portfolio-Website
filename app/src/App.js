@@ -48,7 +48,7 @@ function App() {
 const theme = createTheme({
   palette: {
     primary: {
-      main: 'rgb(30, 56, 133)',
+      main: '#1e3885',
       contrastText: '#6e8ade',
       dark : '#000000'
     },

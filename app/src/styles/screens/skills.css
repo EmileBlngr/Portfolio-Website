@@ -1,0 +1,14 @@
+.container-skills {
+    display: flex;
+    flex-direction: row;
+    margin-block: 2%;
+}
+
+@media (max-width: 930px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
