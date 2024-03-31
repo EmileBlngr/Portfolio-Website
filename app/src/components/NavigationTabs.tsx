@@ -9,13 +9,15 @@ import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import ListItemText from '@mui/material/ListItemText';
 import { englishIcon, franceIcon } from "../assets/_export.tsx";
-import { Icon, ListItemButton, ListItemIcon } from "@mui/material";
+import { AppBar, IconButton, ListItemButton, ListItemIcon, Toolbar, Typography } from "@mui/material";
 //Icons
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import InfoIcon from '@mui/icons-material/Info';
 import EmojiObjectsIcon from '@mui/icons-material/EmojiObjects';
 import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
+import MenuIcon from '@mui/icons-material/Menu';
+
 
 type LanguageChangeHandler = (selectedLocale: string) => void;
 
@@ -38,7 +40,7 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
     };
     //#region useEffects
     useEffect(() => {
-      let route: string;
+      let route: string = "/";
 
       if (tab === undefined) setTab(0)
       switch (tab) {
@@ -99,10 +101,24 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
     return(
       <div className="flex-row">
          {isMobile ? (
-          <Button onClick={handleToggleDrawer}>
-            <Icon>menu</Icon>
-            <h1 style={{marginLeft: 10}}><FormattedMessage id={tabName}/></h1>
-          </Button>
+          <AppBar 
+            position="static" 
+            sx={{bgcolor:'white'}}>
+            <Toolbar>
+              <IconButton
+                size="large"
+                edge="start" 
+                aria-label="menu"
+                sx={{ mr: 2, color:'#1e3885'}}
+                onClick={handleToggleDrawer}
+              >
+                <MenuIcon />
+              </IconButton>
+              <Typography variant="h6" component="div" sx={{ flexGrow: 1, color:'#1e3885' }}>
+                <FormattedMessage id={tabName}/>
+              </Typography>
+            </Toolbar>
+          </AppBar>
         ) : (
           <>
           <Tabs value={tab} onChange={handleChange} className="flex-1">
