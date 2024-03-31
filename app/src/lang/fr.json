@@ -8,6 +8,8 @@
     "resumeTab": "Mon CV",
 
     "languagesTitle" : "Langues",
+    "softSkillsTitle" : "Compétences transverses",
+    "hardSkillsTitle" : "Compétences techniques",
     "profileTitle": "Étudiant ingénieur en informatique",
 
     "about-citation": "Développeur passionné, j'allie analyse et compétences techniques pour créer des solutions innovantes.",
@@ -87,6 +89,20 @@
     "project-description-conceptionbdd2" : "Nous avons élaboré le MCD et les autres schémas de la BDD relationnelle, puis nous l'avons implémenté sur MySql.",
     "project-description-funkytown1" : "Funkytown est une ville fictive pour laquelle nous avons été missionné à travers ce projet. Notre équipe a conçu l'architecture réseaux des bâtiments entourés en rouge.",
     "project-description-funkytown2" : "Pour simuler tous les réseaux de la ville, nous avons réalisé une maquette PacketTracer sur laquelle nous avons configuré chaque équipement à l'aide des différents protocoles et de notre plan d'adressage ip.",
-    "project-description-www1" : "Worldwide Weather Watcher est une station météorologique installée sur une carte Arduino Uno. Elle permet de faire différents relevés, comme la température ou la pression atmosphérique, à l'aide de capteurs."
+    "project-description-www1" : "Worldwide Weather Watcher est une station météorologique installée sur une carte Arduino Uno. Elle permet de faire différents relevés, comme la température ou la pression atmosphérique, à l'aide de capteurs.",
 
+    "skill-interpersonal" : "Aisance relationnelle",
+    "skill-teamwork" : "Travail d'équipe",
+    "skill-flexibility" : "Flexibilité",
+    "skill-positivity" : "Positivité",
+    "skill-teaching" : "Pédagogie",
+    "skill-db" : "Base de données",
+    "skill-french" : "Français",
+    "skill-english" : "Anglais",
+    "skill-deutsch" : "Allemand",
+    "skill-french-level" : "Français natif",
+    "skill-english-level" : "Niveau B2 - TOEIC 920/990",
+    "skill-deutsch-level" : "Niveau A2",
+    "skill-software-architecture": "Architectures logicielles",
+    "skill-hexagonal-architecture": "Architecture Hexagonale"
 }

@@ -39,6 +39,7 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
     //#region useEffects
     useEffect(() => {
       let route: string;
+
       if (tab === undefined) setTab(0)
       switch (tab) {
         case 0:
@@ -58,11 +59,13 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
           setTabName("skillsTab")
           break;
         case 4:
-          route = "/resume"
-          setTabName("resumeTab")
+          // Téléchargement du CV PDF
+          window.open("./CVEmile.pdf", "_blank");
+          setTabName("resumeTab");
           break;
         default:
           route = "/"
+          break;
       }
       navigate(route);  
     }, [tab])
