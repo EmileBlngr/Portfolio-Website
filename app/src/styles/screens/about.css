@@ -41,6 +41,7 @@
     }
     .container-global-about {
         padding-bottom: 15%;
+        padding-inline: 2%;
     }
 }
 
