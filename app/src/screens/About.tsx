@@ -13,7 +13,7 @@ export default function About() {
             sx={{marginInline:'10%', marginBottom: '2%'}}
             variant="filled" 
             severity="info">
-                Je suis à la recherche d'un stage de développeur fullsatck de septembre 2024 à janvier 2025.
+                <FormattedMessage id="about-internship-search"/>
             </Alert>
             <div className="presentation-sentence">
                 <FormattedMessage id="about-presentation-1"/>
