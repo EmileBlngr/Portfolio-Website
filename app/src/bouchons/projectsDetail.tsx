@@ -1,5 +1,7 @@
 import { Key } from "react";
-import { adminsi, cesinova, conceptionbdd, cozyhomes1, cozyhomes2, github, dbmanager, easySave, funkytown, internship, portfolio, www, easysave2, easysave1, internship1, internship3, internship4, internship2, adminsi1, conceptionbdd1, funkytown1, funkytown2, funkytown3, www2, www1 } from "../assets/_export.tsx";
+import { adminsi, cozyhomes1, cozyhomes2, github, dbmanager, easySave, internship, 
+    portfolio, www, easysave2, easysave1, internship1, internship3, internship4, internship2, 
+    adminsi1, conceptionbdd1, funkytown1, funkytown2, funkytown3, www2, www1 } from "../assets/_export.tsx";
 import { IProjectDetail } from "../interface/IProjectDetail.tsx";
 
 
@@ -27,7 +29,7 @@ export const projectsDetail: IProjectDetail[] = [
     {
         idProject : 3,
         images : [portfolio],
-        enableExtending: true,
+        enableExtending: false,
         title : "project-title-portfolio",
         detail : ["project-description-portfolio1", "project-description-portfolio2"],
         link : "https://github.com/EmileBlngr/Portfolio-Website",
