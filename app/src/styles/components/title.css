@@ -1,5 +1,5 @@
 .title-container {
-  width: 30%;
+  width: 40%;
 }
 
 .title {
@@ -10,4 +10,10 @@
 .divider {
   width: 50%;
   border : 2px solid rgb(30, 56, 133);
+}
+
+@media (max-width: 768px) {
+  .title-container{
+    width: 60%;
+  }
 }
