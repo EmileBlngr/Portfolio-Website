@@ -1,0 +1,21 @@
+.project-card-container {
+  width: calc(30% - 20px);
+  height: 350px;
+  max-height: 350px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+@media (max-width: 1250px) {
+  .project-card-container {
+    width: calc(49% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .project-card-container {
+    width: calc(90% - 20px);
+  }
+}

@@ -1,0 +1,13 @@
+.title-container {
+  width: 30%;
+}
+
+.title {
+  margin-bottom: 5%;
+  flex-wrap: nowrap;
+}
+
+.divider {
+  width: 50%;
+  border : 2px solid rgb(30, 56, 133);
+}

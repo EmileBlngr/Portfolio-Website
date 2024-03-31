@@ -1,0 +1,28 @@
+.container-global-skills {
+    padding-bottom: 5%;
+}
+
+.container-skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    width: 90%
+}
+
+@media (max-width: 930px) {
+    .container-skills {
+        width: 100%
+    }
+    .container-global-skills {
+        padding-bottom: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-global-skills {
+        padding-bottom: 15%;
+    }
+}
+
