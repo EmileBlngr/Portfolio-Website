@@ -59,9 +59,7 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
           setTabName("skillsTab")
           break;
         case 4:
-          // Téléchargement du CV PDF
-          window.open("./CVEmile.pdf", "_blank");
-          setTabName("resumeTab");
+          openResume()
           break;
         default:
           route = "/"
@@ -71,7 +69,7 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
     }, [tab])
     useEffect(() => {
       const handleResize = () => {
-        setIsMobile(window.innerWidth <= 1185);
+        setIsMobile(window.innerWidth <= 700);
       };
       handleResize(); // Appel initial pour définir le bon état au chargement
       window.addEventListener("resize", handleResize);
@@ -93,6 +91,11 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
       setTabName(message)
     };
     
+    const openResume = () => {
+      window.open("./CV Emile Boulanger.pdf", "_blank");
+      setTabName("resumeTab");
+    }
+
     return(
       <div className="flex-row">
          {isMobile ? (
@@ -144,7 +147,7 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
               <ListItemIcon><EmojiObjectsIcon/></ListItemIcon>
               <ListItemText primary={<FormattedMessage id="skillsTab"/>} />
             </ListItemButton>
-            <ListItemButton onClick={() => handleDrawerItemClick("/resume", "resumeTab")}>
+            <ListItemButton onClick={() => openResume()}>
               <ListItemIcon><PictureAsPdfIcon/></ListItemIcon>
               <ListItemText primary={<FormattedMessage id="resumeTab"/>} />
             </ListItemButton>
