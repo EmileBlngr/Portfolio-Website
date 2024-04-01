@@ -54,7 +54,7 @@ export const projectsDetail: IProjectDetail[] = [
         detail : ["project-description-internship-website1", "project-description-internship-website2"],
         link : "https://github.com/Adarito49/Projet-Site-WEB",
         projectType : "project-type-academic",
-        contentHeight: "90%"
+        contentHeight: "93%"
     },
     {
         idProject : 6,
@@ -64,7 +64,7 @@ export const projectsDetail: IProjectDetail[] = [
         detail : ["project-description-adminsi1", "project-description-adminsi2"],
         link : "",
         projectType : "project-type-academic",
-        contentHeight: "90%"
+        contentHeight: "94%"
     },
     {
         idProject : 7,
@@ -84,7 +84,7 @@ export const projectsDetail: IProjectDetail[] = [
         detail : ["project-description-funkytown1", "project-description-funkytown2"],
         link : "",
         projectType : "project-type-academic",
-        contentHeight: "90%"
+        contentHeight: "93%"
     },
     {
         idProject : 9,
