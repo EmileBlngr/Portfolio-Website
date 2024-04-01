@@ -70,7 +70,7 @@ const ModalProject = ({open, setOpen, idProject}: ModalProjectProps) => {
                     <FormattedMessage id={detailProject.title} />
                     </h2>
                     {detailProject.detail.map(ligne => {
-                        return <p key={ligne}><FormattedMessage id={ligne} /></p>
+                        return <p style={{textAlign: "justify"}} key={ligne}><FormattedMessage id={ligne} /></p>
                     })}
                     
                     {detailProject.link && <div>Github : <a href={detailProject.link}>{detailProject.link}</a></div>}
