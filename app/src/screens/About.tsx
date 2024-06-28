@@ -9,12 +9,7 @@ export default function About() {
             <p className="citation">
                 <FormattedMessage id="about-citation"/>
             </p>
-            <Alert 
-            sx={{marginInline:'5%', marginBottom: '2%'}}
-            variant="filled" 
-            severity="info">
-                <FormattedMessage id="about-internship-search"/>
-            </Alert>
+            
             <div className="presentation-sentence">
                 <FormattedMessage id="about-presentation-1"/>
             </div>
