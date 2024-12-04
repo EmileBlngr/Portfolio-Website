@@ -81,6 +81,54 @@ export default function Career() {
                     </TimelineSeparator>
                     <TimelineContent>
                     <Typography component="span" sx={{fontSize: 17, fontWeight: 600}}>
+                        <FormattedMessage id="career-careline-exp"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.contrastText, fontSize: 14, fontWeight: 600}}>
+                        <FormattedMessage id="career-careline"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-careline-text1"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-careline-text2"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-careline-text3"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-careline-text4"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-careline-text5"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-careline-text6"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-careline-text7"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-careline-text8"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-careline-text9"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-careline-text10"/>
+                    </Typography>
+                    </TimelineContent>
+                </TimelineItem>
+
+                <TimelineItem>
+                    <TimelineSeparator>
+                        <TimelineConnector  sx={{backgroundColor: theme.palette.primary.main}}/>
+                            <TimelineDot sx={
+                                {borderColor: theme.palette.primary.main, 
+                                backgroundColor: theme.palette.primary.contrastText}}/>
+                        <TimelineConnector sx={{backgroundColor: theme.palette.primary.main}}/>
+                    </TimelineSeparator>
+                    <TimelineContent>
+                    <Typography component="span" sx={{fontSize: 17, fontWeight: 600}}>
                         <FormattedMessage id="career-watsoft-exp"/>
                     </Typography>
                     <Typography sx={{color: theme.palette.primary.contrastText, fontSize: 14, fontWeight: 600}}>
