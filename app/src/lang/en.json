@@ -31,6 +31,19 @@
     "career-academic-career": "Academic Career",
     "career-professional-career": "Professional Experience",
 
+    "career-careline": "09/2024 - 12/2024 | Careline Solutions, Mérignac",
+    "career-careline-exp": "Fullstack Developer Internship: .NET / C# / React.js",
+    "career-careline-text1": "Careline Solutions is a startup offering a multi-parameter telemonitoring platform for patients with heart failure.",
+    "career-careline-text2": "I joined as a Fullstack Developer Intern, working according to the Agile Scrum methodology with a V-model development cycle. I contributed to the development of new features, and my main mission was to migrate a significant module of the software to make it independent from the rest.",
+    "career-careline-text3": "Thus, carrying out this project independently led me to follow these steps:",
+    "career-careline-text4": "- Requirements gathering",
+    "career-careline-text5": "- Formalizing requirements by drafting a comprehensive specification document (accompanied by FIGMA mockups)",
+    "career-careline-text6": "- Technical breakdown into Epics, Features, User Stories, and Tasks in Azure",
+    "career-careline-text7": "- Sprint-based feature planning",
+    "career-careline-text8": "- Creating a new Web API (.NET) & a Frontend project (React) 'From Scratch'",
+    "career-careline-text9": "- Setting up secure authentication via Entra ID (formerly Azure AD)",
+    "career-careline-text10": "- Developing features",
+    
     "career-watsoft": "01/2024 - 04/2024 | Watsoft Distribution, Pessac",
     "career-watsoft-exp": "Fullstack Developer Internship: .NET / C# / Vue.js",
     "career-watsoft-text1": "As a fullstack developer intern at Watsoft, I was involved in all aspects of software development. Working within a small team, I participated in maintenance tasks (TMA) in an Agile environment. My main mission (3 months) involved the complete overhaul of a critical ERP feature. Thus, independently, I designed the new solution through all these steps:",
@@ -40,12 +53,15 @@
     "career-watsoft-text5": "4 - UML modeling (class/sequence diagrams)",
     "career-watsoft-text6": "5 - Frontend Development (Vue.js with Quasar framework)",
     "career-watsoft-text7": "6 - Backend Development (.NET C#, using hexagonal architecture)",
+    
     "career-cgi": "04/2023 - 07/2023 | CGI, Le Haillan",
     "career-cgi-exp": "Digital Designer Internship",
     "career-cgi-text": "As part of a development team following the Agile Scrum methodology, I contributed to the creation of two internal mobile applications using React Native. I participated in designing the application mockups (UI design), brainstorming on business logic, and frontend development under the guidance of a Tech Lead.",
+    
     "career-rauzan": "08/2022 | Caves de Rauzan, Rauzan",
     "career-rauzan-exp": "Cellar Employee",
     "career-rauzan-text": "I performed cleaning and maintenance tasks, various other cellar work, and participated in the Crémant harvest.",
+    
     "career-girondehabitat": "01/2018 | Gironde Habitat, Bordeaux",
     "career-girondehabitat-exp": "Observation Internship in the Legal Department",
     "career-girondehabitat-text": "3rd-year observation internship. Introduction to the professional and legal environment.",

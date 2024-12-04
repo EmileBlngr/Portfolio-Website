@@ -29,6 +29,20 @@
     "career-bac-text" : "Diplôme obtenu avec la Mention 'Très Bien'. Mes spécialités étaient : Mathématiques, Informatique, et Science de l'ingénieur.",
     "career-academic-career" : "Parcours Académique",
     "career-professional-career" : "Expérience Professionelle",
+
+    "career-careline" : "09/2024 - 12/2024 | Careline Solutions, Mérignac",
+    "career-careline-exp" : "Stage Développeur Fullstack .NET / C# / React.js",
+    "career-careline-text1" : "Careline Solutions est une startup proposant une plateforme de télésurveillance multiparamétrique des patients atteints d'insuffisance cardiaque.",
+    "career-careline-text2" : "J'ai été intégré en tant que stagiaire développeur Fullstack, fonctionnant selon la méthode Agile Scrum, avec un cycle de développement en V. J'ai œuvré au développement de nouvelles fonctionnalités, et ma principale mission consistait en la migration d'un bloc important du logiciel afin de le rendre indépendant du reste.",
+    "career-careline-text3" : "Ainsi, la réalisation de ce projet en autonomie m'a emmené à suivre les étapes suivantes :",
+    "career-careline-text4" : "- Recueil du besoin",
+    "career-careline-text5" : "- Expression du besoin en rédigeant un cahier des charges complet (accompagné de maquettes FIGMA)",
+    "career-careline-text6" : "- Découpage technique en Epic, Features, US & Tasks dans Azure",
+    "career-careline-text7" : "- Planification en sprints des features",
+    "career-careline-text8" : "- Création 'From Scratch' d'une nouvelle API Web (.NET) & d'un projet Frontend (React)",
+    "career-careline-text9" : "- Mise en place d'une authentification sécurisée via Entra ID (ancien Azure AD)",
+    "career-careline-text10" : "- Développement des features",
+
     "career-watsoft" : "01/2024 - 04/2024 | Watsoft Distribution, Pessac",
     "career-watsoft-exp" : "Stage Développeur Fullstack .NET / C# / Vue.js",
     "career-watsoft-text1" : "En tant que stagiaire développeur fullstack chez Watsoft, j'ai été impliqué dans tous les aspects du développement logiciel. Travaillant au sein d'une petite équipe, j'ai participé aux tâches de maintenance (TMA) dans un environnement Agile. Ma principale mission (3 mois) concernait la refonte complète d'une fonctionnalité critique de l'ERP. Ainsi, de manière autonome, j'ai conçu la nouvelle solution à travers toutes ces étapes :",
@@ -38,12 +52,15 @@
     "career-watsoft-text5" : "4 - Modélisation UML (diagrammes de classe/séquence)",
     "career-watsoft-text6" : "5 - Développement Frontend (Vue.js avec le framework Quasar)",
     "career-watsoft-text7" : "6 - Développement Backend (.NET C#, avec une architecture hexagonale)",
+
     "career-cgi" : "04/2023 - 07/2023 | CGI, Le Haillan",
     "career-cgi-exp" : "Stage Concepteur Numérique Responsable",
     "career-cgi-text" : "Intégré à une équipe de développeurs suivant la méthodologie Agile Scrum, j'ai participé à la création de deux applications mobiles internes en React Native. J'ai contribué à la conception des maquettes de l'application (UI design), à la réflexion sur la logique métier, puis au développement de la partie frontend sous la responsabilité d'un Tech Lead.",
+    
     "career-rauzan" : "08/2022 | Caves de Rauzan, Rauzan",
     "career-rauzan-exp" : "Employé de chai",
     "career-rauzan-text" : "J'ai réalisé des tâches de nettoyage et de maintenance, d'autres divers travaux de chais, et j'ai participé aux vendanges de Crémant.",
+    
     "career-girondehabitat" : "01/2018 | Gironde Habitat, Bordeaux",
     "career-girondehabitat-exp" : "Stage d'observation dans le pôle juridique",
     "career-girondehabitat-text" : "Stage d'observation de 3ème. Découverte du milieu professionnel et juridique.",
