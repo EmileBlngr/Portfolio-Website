@@ -1,18 +1,16 @@
 .citation{
-    margin-top: 3%;
     text-align: center;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
     padding-inline: 20%;
-    font-size: 1.2em;
-    font-weight: 700;
+    padding-top: 3%;
 }
 
 .presentation-sentence {
     padding-bottom: 3%;
     padding-inline: 5%;
     text-indent: 2%;
+    letter-spacing: 0.8px;
     color: black;
-    font-weight: 500;
     text-align: justify;
 }
 

@@ -5,9 +5,10 @@ import Box from "@mui/material/Box";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { getDefaultProject, getProject } from "../../bouchons/projectsDetail.tsx";
 import { FormattedMessage } from "react-intl";
-import { Button, Icon, useTheme } from "@mui/material";
+import { Typography, useTheme } from "@mui/material";
 import ImageCarousel from "./ImageCarousel.tsx";
 import { IProjectDetail } from "../../interface/IProjectDetail.tsx";
+import CloseButton from "../Button/CloseButton.tsx";
 interface ModalProjectProps {
     open: boolean;
     setOpen: React.Dispatch<React.SetStateAction<boolean>>;
@@ -66,9 +67,10 @@ const ModalProject = ({open, setOpen, idProject}: ModalProjectProps) => {
         >
             <div className="modal-project-container">
                <Box sx={{ ...modalStyle }}>
-                    <h2 className="modal-title">
+                    <CloseButton onClick={handleCloseModalByButton}/>
+                    <Typography variant="h1" sx={{color:theme.palette.primary.dark, pt: 3}}  className="modal-title">
                     <FormattedMessage id={detailProject.title} />
-                    </h2>
+                    </Typography>
                     {detailProject.detail.map(ligne => {
                         return <p style={{textAlign: "justify"}} key={ligne}><FormattedMessage id={ligne} /></p>
                     })}
@@ -79,28 +81,7 @@ const ModalProject = ({open, setOpen, idProject}: ModalProjectProps) => {
                         images={detailProject.images}
                         enableExtending={detailProject.enableExtending}
                         isImageExpanded={isImageExpanded}
-                        setIsImageExpanded={setIsImageExpanded}/>
-                    {!isImageExpanded ? (
-                       <Button onClick={handleCloseModalByButton}
-                        sx={{
-                            backgroundColor: theme.palette.primary.main,
-                            color: "white",
-                            width: '40%',
-                            position: 'absolute',
-                            bottom: '20px',
-                            left: '50%',
-                            transform: 'translateX(-50%)',                 
-                            '&:hover': {
-                                backgroundColor: theme.palette.primary.contrastText,
-                                color: "black",
-                            }
-                            }}
-                        >             
-                            <Icon sx={{paddingRight: 2}}>arrow_back</Icon>
-                            <span className="project-button-label"><FormattedMessage id="close-button" /></span>
-                        </Button> 
-                    ) : null}
-                    
+                        setIsImageExpanded={setIsImageExpanded}/>         
                 </Box> 
             </div>
             

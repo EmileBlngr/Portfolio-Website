@@ -56,6 +56,22 @@ const theme = createTheme({
       main: 'rgba(255, 255, 255)',
     },
   },
+  typography: {
+    fontFamily: '"Rethink Sans", sans-serif',
+    fontSize: 14,
+    h1: {
+        fontSize: '1.4rem',
+        fontWeight: 700
+      },
+      h2: {
+        fontSize: '1.2rem',
+        fontWeight: 700
+      },
+      h3: {
+        fontSize: '1.05rem',
+        fontWeight: 'normal'
+      },
+  }
 });
   return (
     <ThemeProvider theme={theme}>

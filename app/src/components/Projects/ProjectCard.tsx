@@ -10,9 +10,17 @@ import Button from "@mui/material/Button";
 import { FormattedMessage } from "react-intl";
 import Icon from "@mui/material/Icon";
 import ModalProject from "./ModalProject.tsx";
+import { styled } from "@mui/material";
 interface ProjectCardProps {
     project: IProjectAbstract;
   }
+
+const StyledButton = styled(Button)({
+    backgroundColor: "rgba(30, 56, 133, 0.15)",
+    "&:hover": {
+        backgroundColor: "rgba(30, 56, 133, 0.1)",
+    },
+});
 
 const ProjectCard = ({project}: ProjectCardProps) => {
     const [openModalProject, setOpenModalProject] = useState(false);
@@ -41,9 +49,9 @@ const ProjectCard = ({project}: ProjectCardProps) => {
                     </Typography>
                 </CardContent>
                 <CardActions sx={{height: 1/8, display: "flex", justifyContent:"right"}}>
-                    <Button onClick={handleOpen} size="medium" sx={{bgcolor: "rgb(30, 56, 133, 0.2)"}}>
+                    <StyledButton onClick={handleOpen} size="medium">
                         <Icon>visibility</Icon>
-                    </Button>
+                    </StyledButton>
                 </CardActions>
             </Card>
             <ModalProject 

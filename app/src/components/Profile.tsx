@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Avatar, Button, Drawer, Icon, useTheme } from "@mui/material";
+import { Avatar, Button, Drawer, Icon, Typography, useTheme } from "@mui/material";
 import { LinkedIn, GitHub } from '@mui/icons-material';
 import { photoEmile } from "../assets/_export.tsx";
 import '../styles/components/profile.css';
@@ -46,19 +46,19 @@ export default function NavigationTabs() {
             alt="photo Emile" 
             src={photoEmile}
             sx={{ width:176, height: 176, borderColor:theme.palette.primary.main, border:2}}/>
-            <h2>Emile BOULANGER</h2>
-            <h4><FormattedMessage id="profileTitle"/></h4>
+            <Typography variant="h1" sx={{pt: 3}}>Emile BOULANGER</Typography>
+            <Typography sx={{pt: 3, pb: 2,fontWeight: 'bold'}}><FormattedMessage id="profileTitle"/></Typography>
             <div className="row">
                 <Icon className="flex-1">call</Icon>
-                <span className="flex-6">+33.6.38.66.41.18</span>
+                <Typography className="flex-6">+33.6.38.66.41.18</Typography>
             </div>
             <div className="row">
                 <Icon className="flex-1">mail</Icon>
-                <span className="flex-6">{email}</span>
+                <Typography className="flex-6">{email}</Typography>
             </div>
             <div className="row">
                 <Icon className="flex-1">pin_drop</Icon>
-                <span className="flex-6">Bruges, Gironde, France</span>
+                <Typography className="flex-6">Bruges, Gironde, France</Typography>
             </div>
             <div className="row">
                 <LinkedIn className="flex-1"></LinkedIn>
@@ -91,15 +91,15 @@ export default function NavigationTabs() {
                 <div className="profile-lines">
                     <div className="row">
                     <Icon className="flex-1">call</Icon>
-                    <span className="flex-6">+33.6.38.66.41.18</span>
+                    <Typography className="flex-6">+33.6.38.66.41.18</Typography>
                     </div>
                     <div className="row">
                         <Icon className="flex-1">mail</Icon>
-                        <span className="flex-6">{email}</span>
+                        <Typography className="flex-6">{email}</Typography>
                     </div>
                     <div className="row">
                         <Icon className="flex-1">pin_drop</Icon>
-                        <span className="flex-6">Bruges, Gironde, France</span>
+                        <Typography className="flex-6">Bruges, Gironde, France</Typography>
                     </div>
                     <div className="row">
                         <LinkedIn className="flex-1"></LinkedIn>
