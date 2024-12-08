@@ -1,6 +1,6 @@
 import React from "react";
 import Chip from "@mui/material/Chip";
-import { Tooltip, Zoom } from "@mui/material";
+import { styled, Theme, Tooltip, Zoom } from "@mui/material";
 
 interface SkillCardProps {
     masterLevel: number;
@@ -8,6 +8,11 @@ interface SkillCardProps {
     icon?: JSX.Element;
     tooltip?: string | JSX.Element;
 }
+
+const CustomChip = styled(Chip)(({ theme }: { theme: Theme }) => ({
+    boxShadow: theme.shadows[1],
+  }));
+  
 
 const SkillCard = ({masterLevel, label, icon, tooltip}: SkillCardProps) => {
     const cardBgColor = (masterLevel) => {
@@ -49,7 +54,7 @@ const SkillCard = ({masterLevel, label, icon, tooltip}: SkillCardProps) => {
     return(
         <div>
             <Tooltip TransitionComponent={Zoom} title={tooltip ? tooltip : label} placement="top">
-                <Chip 
+                <CustomChip 
                     sx={{ ...skillCardStyle }} 
                     label={label} 
                     icon={icon}

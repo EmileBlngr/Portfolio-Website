@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import IProjectAbstract from "../../interface/IProjectAbstract.tsx";
-import "../../styles/components/projectCard.css";
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -10,9 +9,36 @@ import Button from "@mui/material/Button";
 import { FormattedMessage } from "react-intl";
 import Icon from "@mui/material/Icon";
 import ModalProject from "./ModalProject.tsx";
+import { Box, styled, Theme } from "@mui/material";
 interface ProjectCardProps {
     project: IProjectAbstract;
   }
+
+const StyledButton = styled(Button)(({ theme }: { theme: Theme }) => ({
+    backgroundColor: "rgba(30, 56, 133, 0.15)",
+    boxShadow: theme.shadows[1],
+    "&:hover": {
+        backgroundColor: "rgba(30, 56, 133, 0.1)",
+    },
+}));
+
+const ProjectCardContainer = styled(Box)(({ theme }: { theme: Theme }) => ({
+    boxShadow: theme.shadows[2],
+    width: 'calc(30% - 20px)',
+    height: 350,
+    overflow: 'hidden',
+    marginBottom: 20,
+    boxSizing: 'border-box',
+    borderRadius: 5,
+    [theme.breakpoints.down('lg')]: {
+        width: 'calc(49% - 20px)'
+    },
+    [theme.breakpoints.down('sm')]: {
+        width: 'calc(90% - 20px)'
+    }
+}));
+  
+  
 
 const ProjectCard = ({project}: ProjectCardProps) => {
     const [openModalProject, setOpenModalProject] = useState(false);
@@ -21,7 +47,7 @@ const ProjectCard = ({project}: ProjectCardProps) => {
     };
 
     return(
-        <div className="project-card-container">
+        <ProjectCardContainer>
             <Card sx={{height: 1}}>
                 <CardMedia
                     component="img"
@@ -41,16 +67,16 @@ const ProjectCard = ({project}: ProjectCardProps) => {
                     </Typography>
                 </CardContent>
                 <CardActions sx={{height: 1/8, display: "flex", justifyContent:"right"}}>
-                    <Button onClick={handleOpen} size="medium" sx={{bgcolor: "rgb(30, 56, 133, 0.2)"}}>
+                    <StyledButton onClick={handleOpen} size="medium">
                         <Icon>visibility</Icon>
-                    </Button>
+                    </StyledButton>
                 </CardActions>
             </Card>
             <ModalProject 
                 open={openModalProject} 
                 setOpen={setOpenModalProject}
                 idProject={project.idProject}/>
-        </div>
+        </ProjectCardContainer>
     );
 }
 

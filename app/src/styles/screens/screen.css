@@ -23,10 +23,10 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-}
+  }
   
   body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Rethink Sans", sans-serif
   }
   
   .webContainer {

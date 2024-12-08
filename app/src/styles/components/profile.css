@@ -17,7 +17,8 @@ h2 {
   display: flex;
   flex-direction: row;
   text-align: left;
-  padding-bottom: 3%;
+  align-items: center;
+  padding-bottom: 8%;
   width: 100%;
   font-size: 16px;
 }
@@ -47,6 +48,7 @@ h2 {
 }
 .row {
   width: 35%;
+  padding-bottom: 3%;
 }
 .profile-container h4, 
 .profile-container span, 

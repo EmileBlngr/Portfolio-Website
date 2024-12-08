@@ -2,13 +2,14 @@ import { Route, Routes, useLocation} from 'react-router-dom';
 //Language manager
 import { IntlProvider } from 'react-intl';
 import translations from "./lang/translations.ts";
+import theme from './styles/theme.ts';
 
 import About from './screens/About.tsx';
 import Career from './screens/Career.tsx';
 import Screen from './screens/screen.tsx'
 import React, {useEffect, useState} from 'react';
 import './App.css';
-import { ThemeProvider, createTheme } from '@mui/material';
+import { ThemeProvider } from '@mui/material';
 import Projects from './screens/Projects.tsx';
 import Skills from './screens/Skills.tsx';
 
@@ -45,18 +46,7 @@ function App() {
     }
   };
   
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#1e3885',
-      contrastText: '#6e8ade',
-      dark : '#000000'
-    },
-    secondary: {
-      main: 'rgba(255, 255, 255)',
-    },
-  },
-});
+
   return (
     <ThemeProvider theme={theme}>
       <IntlProvider locale={locale} messages={messages} defaultLocale='fr'>

@@ -12,12 +12,13 @@
     "hardSkillsTitle" : "Compétences techniques",
     "profileTitle": "Étudiant ingénieur en informatique",
 
-    "about-citation": "Développeur passionné, j'allie analyse et compétences techniques pour créer des solutions innovantes.",
+    "about-citation": "Développeur passionné, j'allie compétences techniques, analyse et compréhension des enjeux métiers pour concevoir des solutions innovantes.",
     "about-presentation-1" : "Je suis Emile Boulanger, étudiant en informatique à CESI Ecole d'Ingénieurs à Bordeaux (actuellement en BAC+4).",
-    "about-presentation-2" : "Passionné par le monde du développement logiciel et web, tant du côté backend que frontend, je suis particulièrement attiré par les aspects créatifs et analytiques que ce domaine apporte.",
-    "about-presentation-3" : "Mon aspiration est de contribuer à des projets dynamiques et stimulants, favorisant l'innovation.",
-    "about-presentation-4" : "Je prévois d'évoluer dans la partie technique du développement avant de m'orienter à terme plus vers des responsabilités liées à la gestion de projets.",
+    "about-presentation-2" : "Passionné par le monde de l'ingénierie logicielle, tant du côté backend que frontend, je suis particulièrement attiré par les aspects créatifs et analytiques que ce domaine apporte.",
+    "about-presentation-3" : "Je souhaite m'impliquer dans des projets où mon travail aura un impact visible et significatif, idéalement en apportant une contribution positive à la société.",
+    "about-presentation-4" : "Mon objectif est de progresser dans la partie technique du développement logiciel tout en restant connecté aux enjeux métiers, en assumant un rôle de conception stratégique et réfléchi, propre à un ingénieur.",
     "about-presentation-5" : "Vous aurez un aperçu plus approfondi de ma personnalité et de mon parcours à travers cette page.",
+    
     "about-internship-search" : "Je suis à la recherche d'un stage de développeur fullstack (niveau BAC+4) de septembre 2024 à janvier 2025.",
 
     "career-label-now" : "En cours",
@@ -119,7 +120,7 @@
     "skill-english" : "Anglais",
     "skill-deutsch" : "Allemand",
     "skill-french-level" : "Français natif",
-    "skill-english-level" : "Niveau B2 - TOEIC 920/990",
+    "skill-english-level" : "Niveau C1 - TOEIC 950/990",
     "skill-deutsch-level" : "Niveau A2",
     "skill-software-architecture": "Architectures logicielles",
     "skill-hexagonal-architecture": "Architecture Hexagonale"

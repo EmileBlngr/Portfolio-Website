@@ -1,32 +1,34 @@
 import React from "react";
 import { FormattedMessage } from 'react-intl';
 import '../styles/screens/about.css'
-import Alert from '@mui/material/Alert';
+import { Typography } from "@mui/material";
+// import Alert from '@mui/material/Alert';
+// Use Alert if we want to display an import message
 
 export default function About() {
     return(
         <div className="container-global-about">
-            <p className="citation">
+            <Typography variant="h2" className="citation">
                 <FormattedMessage id="about-citation"/>
-            </p>
+            </Typography>
             
-            <div className="presentation-sentence">
+            <Typography className="presentation-sentence">
                 <FormattedMessage id="about-presentation-1"/>
-            </div>
+            </Typography>
 
-            <div className="presentation-sentence">
+            <Typography className="presentation-sentence">
                 <FormattedMessage id="about-presentation-2"/>
-            </div>
+            </Typography>
 
-            <div className="presentation-sentence">
+            <Typography className="presentation-sentence">
                 <FormattedMessage id="about-presentation-3"/>
-            </div>
-            <div className="presentation-sentence">
+            </Typography>
+            <Typography className="presentation-sentence">
                 <FormattedMessage id="about-presentation-4"/>
-            </div>
-            <div className="presentation-sentence">
+            </Typography>
+            <Typography className="presentation-sentence">
                 <FormattedMessage id="about-presentation-5"/>
-            </div>
+            </Typography>
         </div>
     );
 }

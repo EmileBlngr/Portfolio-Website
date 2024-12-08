@@ -14,11 +14,11 @@ export default function Skills() {
             
             <Title><FormattedMessage id="softSkillsTitle"/></Title>
             <div className="container-skills">          
-            <SkillCard masterLevel={1} label={<FormattedMessage id="skill-interpersonal"/>}/>  
-            <SkillCard masterLevel={1} label={<FormattedMessage id="skill-teamwork"/>}/>
-            <SkillCard masterLevel={1} label={<FormattedMessage id="skill-flexibility"/>}/>
-            <SkillCard masterLevel={2} label={<FormattedMessage id="skill-positivity"/>}/>
-            <SkillCard masterLevel={2} label={<FormattedMessage id="skill-teaching"/>}/>
+                <SkillCard masterLevel={1} label={<FormattedMessage id="skill-interpersonal"/>}/>  
+                <SkillCard masterLevel={1} label={<FormattedMessage id="skill-teamwork"/>}/>
+                <SkillCard masterLevel={1} label={<FormattedMessage id="skill-flexibility"/>}/>
+                <SkillCard masterLevel={2} label={<FormattedMessage id="skill-positivity"/>}/>
+                <SkillCard masterLevel={2} label={<FormattedMessage id="skill-teaching"/>}/>
             </div>
             
             <Title><FormattedMessage id="hardSkillsTitle" /></Title>
@@ -34,12 +34,12 @@ export default function Skills() {
             </div>
             <div className="container-skills">  
                 <SkillCard masterLevel={0} label="Backend" icon={<Icon color="inherit">settings</Icon>}/>        
-                <SkillCard masterLevel={1} label=".NET"/>        
-                <SkillCard masterLevel={1} label="C#"/>
+                <SkillCard masterLevel={1} label=".NET C#"/>        
                 <SkillCard masterLevel={2} label="C++"/>
-                <SkillCard masterLevel={3} label="C"/>
+                <SkillCard masterLevel={2} label="Python"/>
                 <SkillCard masterLevel={3} label="Java"/>
-                <SkillCard masterLevel={3} label="Python"/>
+                <SkillCard masterLevel={3} label="C"/>
+
             </div>
             <div className="container-skills">  
                 <SkillCard 
@@ -58,13 +58,14 @@ export default function Skills() {
                 <SkillCard masterLevel={3} label="MVVM"/>
             </div>
             <div className="container-skills">  
-                <SkillCard masterLevel={0} label="Collaboration" icon={<Icon color="inherit">groups</Icon>}/>        
+                <SkillCard masterLevel={0} label="Collaboration" icon={<Icon color="inherit">groups</Icon>}/>   
+                <SkillCard masterLevel={1} label="Azure Devops"/>     
                 <SkillCard masterLevel={1} label="Github"/>        
-                <SkillCard masterLevel={1} label="Gitlab"/>
-                <SkillCard masterLevel={2} label="Azure Devops"/>
+                <SkillCard masterLevel={2} label="Gitlab"/>
                 <SkillCard masterLevel={2} label="Jira"/>
                 <SkillCard masterLevel={2} label="Trello"/>
             </div>
+
             <Title><FormattedMessage id="languagesTitle" /></Title>
             <div className="container-skills">  
                 <SkillCard masterLevel={1} tooltip={<FormattedMessage id="skill-french-level"/>} label={<FormattedMessage id="skill-french"/>} icon={<Icon color="inherit">flag</Icon>}/>        

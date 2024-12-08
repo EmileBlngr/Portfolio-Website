@@ -9,7 +9,7 @@ import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import ListItemText from '@mui/material/ListItemText';
 import { englishIcon, franceIcon } from "../assets/_export.tsx";
-import { AppBar, IconButton, ListItemButton, ListItemIcon, Toolbar, Typography } from "@mui/material";
+import { AppBar, IconButton, ListItemButton, ListItemIcon, styled, Theme, Toolbar, Typography } from "@mui/material";
 //Icons
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import InfoIcon from '@mui/icons-material/Info';
@@ -18,12 +18,20 @@ import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import MenuIcon from '@mui/icons-material/Menu';
 
-
 type LanguageChangeHandler = (selectedLocale: string) => void;
 
 interface NavigationTabsProps {
   onLanguageChange: LanguageChangeHandler;
 }
+
+const LanguageButtonGroup = styled(ButtonGroup)(({ theme }: { theme: Theme }) => ({
+  boxShadow: '0px 0px 3px black',
+}));
+
+const CustomAppBar = styled(AppBar)(({ theme }: { theme: Theme }) => ({
+  backgroundColor:'white',
+  boxShadow: '0px 0px 1px black'
+}));
 
 const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
     const intl = useIntl();
@@ -101,9 +109,8 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
     return(
       <div className="flex-row">
          {isMobile ? (
-          <AppBar 
-            position="static" 
-            sx={{bgcolor:'white'}}>
+          <CustomAppBar 
+            position="static">
             <Toolbar>
               <IconButton
                 size="large"
@@ -118,30 +125,30 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
                 <FormattedMessage id={tabName}/>
               </Typography>
             </Toolbar>
-          </AppBar>
+          </CustomAppBar>
         ) : (
           <>
-          <Tabs value={tab} onChange={handleChange} className="flex-1">
-            <Tab label={<FormattedMessage id="aboutTab"/>} id="about" sx={{ fontWeight: tab === 0 ? 'bold' : 'normal' }}/>
-            <Tab label={<FormattedMessage id="careerTab"/>} id="career" sx={{ fontWeight: tab === 1 ? 'bold' : 'normal' }}/>
-            <Tab label={<FormattedMessage id="projectsTab"/>} id="projects" sx={{ fontWeight: tab === 2 ? 'bold' : 'normal' }}/>
-            <Tab label={<FormattedMessage id="skillsTab"/>} id="skills" sx={{ fontWeight: tab === 3 ? 'bold' : 'normal' }}/>
-            <Tab label={<FormattedMessage id="resumeTab"/>} id="resume" sx={{ fontWeight: tab === 4 ? 'bold' : 'normal' }}/> 
-          </Tabs> 
-          <ButtonGroup disableElevation size="small">
-          <Button 
-            onClick={() => handleLanguageChoose("fr")} 
-            variant={language === 'fr' ? "contained" : "text"}
-          >
-            <img src={franceIcon} width={30} alt="French"/>
-          </Button>
-          <Button 
-            onClick={() => handleLanguageChoose("en")} 
-            variant={language === 'en' ? "contained" : "text"}
-          >
-            <img src={englishIcon}  width={30} alt="English"/>
-          </Button>
-        </ButtonGroup>
+            <Tabs value={tab} onChange={handleChange} className="flex-1">
+              <Tab label={<FormattedMessage id="aboutTab"/>} id="about"/>
+              <Tab label={<FormattedMessage id="careerTab"/>} id="career"/>
+              <Tab label={<FormattedMessage id="projectsTab"/>} id="projects"/>
+              <Tab label={<FormattedMessage id="skillsTab"/>} id="skills"/>
+              <Tab label={<FormattedMessage id="resumeTab"/>} id="resume"/> 
+            </Tabs> 
+            <LanguageButtonGroup disableElevation size="small">
+              <Button 
+                onClick={() => handleLanguageChoose("fr")} 
+                variant={language === 'fr' ? "contained" : "text"}
+              >
+                <img src={franceIcon} width={30} alt="French"/>
+              </Button>
+              <Button 
+                onClick={() => handleLanguageChoose("en")} 
+                variant={language === 'en' ? "contained" : "text"}
+              >
+                <img src={englishIcon}  width={30} alt="English"/>
+              </Button>
+            </LanguageButtonGroup>
           </>
           
         )}
