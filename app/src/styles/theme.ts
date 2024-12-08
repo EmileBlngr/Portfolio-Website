@@ -47,6 +47,13 @@ const theme = createTheme({
             }
           }
         },
+        MuiDrawer: {
+          styleOverrides: {
+            paper: {
+              boxShadow: '0px 0px 100px black',
+            },
+          },
+        },
     },
     shadows: [
       'none',

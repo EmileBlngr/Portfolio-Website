@@ -28,6 +28,10 @@ const LanguageButtonGroup = styled(ButtonGroup)(({ theme }: { theme: Theme }) =>
   boxShadow: '0px 0px 3px black',
 }));
 
+const CustomAppBar = styled(AppBar)(({ theme }: { theme: Theme }) => ({
+  backgroundColor:'white',
+  boxShadow: '0px 0px 1px black'
+}));
 
 const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
     const intl = useIntl();
@@ -105,9 +109,8 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
     return(
       <div className="flex-row">
          {isMobile ? (
-          <AppBar 
-            position="static" 
-            sx={{bgcolor:'white'}}>
+          <CustomAppBar 
+            position="static">
             <Toolbar>
               <IconButton
                 size="large"
@@ -122,7 +125,7 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
                 <FormattedMessage id={tabName}/>
               </Typography>
             </Toolbar>
-          </AppBar>
+          </CustomAppBar>
         ) : (
           <>
             <Tabs value={tab} onChange={handleChange} className="flex-1">
