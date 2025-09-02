@@ -33,8 +33,12 @@ const ImageCarousel = ({images, enableExtending, isImageExpanded, setIsImageExpa
       display: 'flex', 
       flexDirection: 'column',
       alignItems: 'center', 
-      position: isImageExpanded ? 'absolute' : 'normal',
-      width: isImageExpanded ? '80vw' : '100%',
+      position: isImageExpanded ? 'fixed' : 'relative',
+      top: isImageExpanded ? '50%' : 'auto',
+      left: isImageExpanded ? '50%' : 'auto',
+      transform: isImageExpanded ? 'translate(-50%, -50%)' : 'none',
+      zIndex: isImageExpanded ? 1300 : 'auto',
+      width: isImageExpanded ? '80vw' : '98%',
       height: isImageExpanded ? '90vh' : '50%',
       marginTop: '2%'
     }
@@ -43,7 +47,7 @@ const ImageCarousel = ({images, enableExtending, isImageExpanded, setIsImageExpa
       height: isImageExpanded ? '90vh' : '100%',
       paddingTop: !isImageExpanded ? 3 : 0,
       display: 'flex',
-      alignItems: isImageExpanded ? 'center' : 'stretch',
+      alignItems: 'center',      
       justifyContent: 'center',
     }
 

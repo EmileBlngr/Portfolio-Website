@@ -75,6 +75,8 @@
     "project-type-academic" : "Projet académique",
     "project-type-associative" : "Projet associatif",
     "project-button-learnmore" : "En savoir plus",
+
+    "project-description-geogames" : "Mon plus grand projet à ce jour, site web complet de jeux géographiques et culturels.",
     "project-description-cozyhomes" : "Partie Frontend d'un site Web de location de logements en React.js.",
     "project-description-easysave" : "Logiciel de sauvegarde .NET C# avec une interface WPF.",
     "project-description-portfolio" : "Ce site internet ! Développé en React.js.",
@@ -86,6 +88,8 @@
     "project-description-funkytown" : "Conception de l'architecture réseau d'une entreprise fictive.",
     "project-description-www" : "Création d'une station météorologique miniature sur une carte Arduino.",
     "project-description-github" : "Mon dépôt Github contient d'autres petits projets.",
+        
+    "project-title-geogames" : "GeoGames",
     "project-title-cozyhomes" : "CozyHomes",
     "project-title-easysave" : "EasySave",
     "project-title-portfolio" : "Site Web Portfolio",
@@ -97,8 +101,16 @@
     "project-title-funkytown" : "Projet Funkytown",
     "project-title-www" : "Projet Worldwide Weather Watcher",
     "project-title-github" : "Autres projets Github",
+
+    "project-detail-geogames1" : "GeoGames est une plateforme ludique de quiz sur la géographie, que j’ai conçue dans le but de partager et démocratiser une de mes passions : découvrir le monde.",
+    "project-detail-geogames2" : "Le projet propose différents types de quiz, allant des questions classiques, aux questions chronométrées en passant par des défis plus ouverts comme lister tous les pays d’un continent. Les joueurs peuvent tester leurs connaissances, améliorer leur score et se comparer grâce à un système de classement.",
+    "project-detail-geogames3" : "Au-delà de l’aspect ludique, l’objectif est de rendre l’apprentissage de la géographie plus interactif et motivant, en ajoutant une dimension compétitive et sociale.",
+    "project-detail-geogames4" : "Sur le plan technique, j’ai conçu et développé l’ensemble de l’architecture : un frontend en React pour l’interface utilisateur, un backend en Node.js avec Express pour la gestion des API, ainsi qu’une base de données MongoDB pour stocker les quiz, les réponses et les scores.",
+    "project-detail-geogames5" : "Le projet intègre également une authentification sécurisée, un modèle de données réfléchi pour gérer les relations entre utilisateurs, quiz et résultats, ainsi qu’un système d’organisation modulable permettant d’ajouter facilement de nouveaux types de quiz.",
+    "project-detail-geogames6" : "GeoGames m'a emmené à gérer un projet complet, en combinant conception technique, architecture backend, développement frontend et réflexion produit.",
     "project-detail-cozyhomes1" : "CozyHomes est un début de site de location de logement, hôtel, maison ou autre type d'hébergement.",
     "project-detail-cozyhomes2" : "J'ai uniquement travaillé sur la partie frontend, que j'ai réalisée à l'aide du framework React.",
+    
     "project-description-easysave1" : "EasySave est un logiciel de sauvegarde, développé en C# .NET, avec une interface graphique WPF et une architecture MVVM.",
     "project-description-easysave2" : "Le logiciel permet de lancer en parallèle ou en séquentiel des sauvegardes totales ou différentielles.",
     "project-description-portfolio1" : "Le site sur lequel vous êtes en train de naviguer !",

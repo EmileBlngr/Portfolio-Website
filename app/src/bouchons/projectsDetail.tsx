@@ -1,11 +1,25 @@
 import { Key } from "react";
 import { adminsi, cozyhomes1, cozyhomes2, github, dbmanager, easySave, internship, 
     portfolio, www, easysave2, easysave1, internship1, internship3, internship4, internship2, 
-    adminsi1, conceptionbdd1, funkytown1, funkytown2, funkytown3, www2, www1 } from "../assets/_export.tsx";
+    adminsi1, conceptionbdd1, funkytown1, funkytown2, funkytown3, www2, www1, geogames2,
+    geogames3, geogames4, geogames5, geogames6, geogames7, geogames8 } 
+from "../assets/_export.tsx";
 import { IProjectDetail } from "../interface/IProjectDetail.tsx";
 
 
 export const projectsDetail: IProjectDetail[] = [
+    {
+        idProject : 0,
+        images : [geogames2, geogames3, geogames4, geogames5, geogames6, geogames7, geogames8],
+        enableExtending: true,
+        title : "project-title-geogames",
+        detail : ["project-detail-geogames1","project-detail-geogames2",
+            "project-detail-geogames3","project-detail-geogames4",
+            "project-detail-geogames5","project-detail-geogames6"],
+        link : "",
+        projectType : "project-type-personnal",
+        contentHeight: "90%"
+    },
     {
         idProject : 1,
         images : [cozyhomes2, cozyhomes1],

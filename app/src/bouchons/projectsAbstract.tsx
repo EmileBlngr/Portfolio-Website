@@ -1,7 +1,14 @@
-import { adminsi, cesinova, conceptionbdd, cozyHomes, dbmanager, easySave, funkytown, github, internship, portfolio, www } from "../assets/_export.tsx";
+import { adminsi, conceptionbdd, cozyHomes, dbmanager, easySave, funkytown, geogames, github, internship, portfolio, www } from "../assets/_export.tsx";
 import IProjectAbstract from "../interface/IProjectAbstract";
 
 const projectsAbstract: IProjectAbstract[] = [
+    {
+        idProject : 0,
+        image : geogames,
+        title : "project-title-geogames",
+        description : "project-description-geogames",
+        projectType : "project-type-personnal",
+    },
     {
         idProject : 1,
         image : cozyHomes,
@@ -72,13 +79,6 @@ const projectsAbstract: IProjectAbstract[] = [
         description : "project-description-github",
         projectType : "project-type-personnal",
     },
-    // {
-    //     idProject : 8,
-    //     image : cesinova,
-    //     title : "project-title-cesinova",
-    //     description : "project-description-cesinova",
-    //     projectType : "project-type-associative",
-    // },
 ];
 
 export default projectsAbstract;
