@@ -13,19 +13,23 @@
     "profileTitle": "Computer engineering student",
 
     "about-citation": "Passionate developer, I combine technical skills, analysis, and understanding of business challenges to design innovative solutions.",
-    "about-presentation-1": "I am Emile Boulanger, a computer science student at CESI Engineering School in Bordeaux (currently in my fourth year of studies).",
+    "about-presentation-1": "I am Emile Boulanger, a computer science student at CESI Engineering School in Bordeaux (currently in my fifth year of studies).",
     "about-presentation-2": "Passionate about software engineering, both backend and frontend, I am particularly drawn to the creative and analytical aspects this field offers.",
     "about-presentation-3": "I aim to contribute to projects where my work will have a visible and meaningful impact, ideally making a positive contribution to society.",
     "about-presentation-4": "My goal is to grow in the technical field of software development while staying connected to business challenges, taking on a thoughtful and strategic design role befitting an engineer.",
     "about-presentation-5": "You will gain deeper insights into my personality and background through this page.",
 
-    "about-internship-search" : "I am looking for a full-stack developer internship (BAC+4 level) from September 2024 to January 2025.",
+    "about-internship-search": "I am looking for a 6-month final-year internship starting on February 6, 2026, combining software engineering and project management.",
 
     "career-label-now" : "Now",
     "career-cesi" : "CESI Engineering school Bordeaux",
     "career-cesi-diplome" : "Computer Engineering Diploma",
-
-    "career-cesi-text": "CESI is based on the Problem Based Learning (PBL) method, which places group projects in complete autonomy at the center of learning. I am currently in my 4th year of specialization in computer science.",   
+    "career-cesi-text": "CESI is based on the Problem Based Learning (PBL) method, which places group projects in complete autonomy at the center of learning. I am currently in my 5th year of specialization in computer science.",   
+    
+    "career-ets": "École de Technologie Supérieure (ETS) | Montreal, Canada",
+    "career-ets-diplome": "Academic semester in Software Engineering in Quebec",
+    "career-ets-text": "I spent 4 months at ETS studying in a Bachelor's program in Software Engineering. There, I deepened my skills in software analysis and design, software architectures, effective user interface design, and advanced algorithms.",
+    
     "career-bac": "Val-de-Garonne High School, Marmande",
     "career-bac-diplome": "Scientific Baccalaureate Diploma",
     "career-bac-text": "Diploma obtained with the Highest Honors. My specialties were: Mathematics, Computer Science, and Engineering Science.",

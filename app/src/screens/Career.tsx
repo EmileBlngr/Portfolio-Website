@@ -38,10 +38,31 @@ export default function Career() {
                         <FormattedMessage id="career-cesi-diplome"/>
                     </Typography>
                     <Typography sx={{color: theme.palette.primary.contrastText, fontSize: 14, fontWeight: 600}}>
-                        2021-2026 / <FormattedMessage id="career-cesi"/>
+                        2021-2026 | <FormattedMessage id="career-cesi"/>
                     </Typography>
                     <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
                         <FormattedMessage id="career-cesi-text"/>
+                    </Typography>
+                    </TimelineContent>
+                </TimelineItem>
+
+                <TimelineItem>
+                    <TimelineSeparator>  
+                        <TimelineConnector  sx={{backgroundColor: theme.palette.primary.main}}/>
+                            <TimelineDot sx={
+                                {borderColor: theme.palette.primary.main, 
+                                backgroundColor: theme.palette.primary.contrastText}}/>
+                        <TimelineConnector sx={{backgroundColor: theme.palette.primary.main}}/>
+                    </TimelineSeparator>
+                    <TimelineContent>
+                    <Typography component="span" sx={{fontSize: 17, fontWeight: 600}}>
+                        <FormattedMessage id="career-ets-diplome"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.contrastText, fontSize: 14, fontWeight: 600}}>
+                        2025 | <FormattedMessage id="career-ets"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-ets-text"/>
                     </Typography>
                     </TimelineContent>
                 </TimelineItem>
