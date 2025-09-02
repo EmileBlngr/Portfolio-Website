@@ -71,17 +71,26 @@ const ModalProject = ({open, setOpen, idProject}: ModalProjectProps) => {
                     <Typography variant="h1" sx={{color:theme.palette.primary.dark, pt: 3}}  className="modal-title">
                     <FormattedMessage id={detailProject.title} />
                     </Typography>
-                    {detailProject.detail.map(ligne => {
-                        return <p style={{textAlign: "justify"}} key={ligne}><FormattedMessage id={ligne} /></p>
-                    })}
-                    
-                    {detailProject.link && <div>Github : <a href={detailProject.link}>{detailProject.link}</a></div>}
+                    <Box sx={{ overflowY: "auto", flexGrow: 1, pr: 1, justifyItems: 'center' }}>
+                        {detailProject.detail.map(ligne => (
+                            <p style={{ textAlign: "justify" }} key={ligne}>
+                            <FormattedMessage id={ligne} />
+                            </p>
+                        ))}
 
-                    <ImageCarousel 
-                        images={detailProject.images}
-                        enableExtending={detailProject.enableExtending}
-                        isImageExpanded={isImageExpanded}
-                        setIsImageExpanded={setIsImageExpanded}/>         
+                        {detailProject.link && (
+                            <div>
+                            Github : <a href={detailProject.link}>{detailProject.link}</a>
+                            </div>
+                        )}
+
+                        <ImageCarousel
+                            images={detailProject.images}
+                            enableExtending={detailProject.enableExtending}
+                            isImageExpanded={isImageExpanded}
+                            setIsImageExpanded={setIsImageExpanded}
+                        />
+                        </Box>     
                 </Box> 
             </div>
             

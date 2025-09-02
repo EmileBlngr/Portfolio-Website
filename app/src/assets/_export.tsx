@@ -4,6 +4,15 @@ export {default as franceIcon}  from './img/france.png';
 export {default as englishIcon}  from './img/united-kingdom.png';
 export {default as cesiIcon}  from './img/logoCesi.png';
 //projects
+export {default as geogames}  from './img/projects/geogames.jpg';
+export {default as geogames2}  from './img/projects/geogames2.png';
+export {default as geogames3}  from './img/projects/geogames3.png';
+export {default as geogames4}  from './img/projects/geogames4.png';
+export {default as geogames5}  from './img/projects/geogames5.png';
+export {default as geogames6}  from './img/projects/geogames6.png';
+export {default as geogames7}  from './img/projects/geogames7.png';
+export {default as geogames8}  from './img/projects/geogames8.png';
+
 export {default as cozyHomes}  from './img/projects/cozyhomes.png';
 export {default as easySave}  from './img/projects/easysave.png';
 export {default as portfolio}  from './img/projects/portfolio.png';
