@@ -8,10 +8,13 @@ import About from './screens/About.tsx';
 import Career from './screens/Career.tsx';
 import Screen from './screens/screen.tsx'
 import React, {useEffect, useState} from 'react';
-import './App.css';
-import { ThemeProvider } from '@mui/material';
+import { Box, ThemeProvider, styled } from '@mui/material';
 import Projects from './screens/Projects.tsx';
 import Skills from './screens/Skills.tsx';
+
+const AppBox = styled(Box)(() => ({
+  height: '100%'
+}));
 
 
 function App() {
@@ -50,7 +53,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <IntlProvider locale={locale} messages={messages} defaultLocale='fr'>
-        <div className='AppContainer'>
+        <AppBox>
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -63,7 +66,7 @@ function App() {
             <Route path="/skills" element={<Screen route="skills" onLanguageChange={handleLanguageChange}><Skills/></Screen>} />
             <Route path="/resume" element={<Screen route="resume" onLanguageChange={handleLanguageChange}><About/></Screen>} />
           </Routes>
-        </div>
+        </AppBox>
       </IntlProvider>
     </ThemeProvider>
     

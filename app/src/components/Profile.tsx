@@ -1,9 +1,29 @@
 import React, { useEffect, useState } from "react";
-import { Avatar, Button, Drawer, Icon, Typography, useTheme } from "@mui/material";
+import { Avatar, Box, Button, Drawer, Icon, styled, Theme, Typography, useTheme } from "@mui/material";
 import { LinkedIn, GitHub } from '@mui/icons-material';
 import { photoEmile } from "../assets/_export.tsx";
 import '../styles/components/profile.css';
 import { FormattedMessage } from "react-intl";
+
+const ProfileBox = styled(Box)(({ theme }: { theme: Theme }) => ({
+  height: '100%',
+  paddingTop: '3%',
+  borderRadius: '5px',
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  textAlign: 'center',
+  margin: 'auto',
+  [theme.breakpoints.down('lg')]: {
+      paddingTop: '0%'
+  },
+}));
+
+const NameText = styled(Typography)(() => ({
+  marginBottom: 0,
+  marginTop: 15,
+  color: 'black'
+}));
 
 export default function NavigationTabs() {
     const theme = useTheme()
@@ -25,7 +45,7 @@ export default function NavigationTabs() {
         setDrawerOpen(!drawerOpen);
     };
     return(
-        <div className="profile-container">
+        <ProfileBox>
             {isMobile ? (
                 <Button onClick={handleToggleDrawer}>
                     <Avatar
@@ -90,7 +110,7 @@ export default function NavigationTabs() {
                 alt="photo Emile" 
                 src={photoEmile}
                 sx={{ width:150, height: 150, border:2, borderColor:theme.palette.primary.main, alignSelf: 'center'}}/>
-                <h2>Emile BOULANGER</h2>
+                <NameText variant="h1">Emile BOULANGER</NameText>
                 <h4><FormattedMessage id="profileTitle"/></h4>
                 <div className="profile-lines">
                     <div className="row">
@@ -131,6 +151,6 @@ export default function NavigationTabs() {
                     </div>
                 </div>         
             </Drawer>   
-        </div>
+        </ProfileBox>
     );
 }
