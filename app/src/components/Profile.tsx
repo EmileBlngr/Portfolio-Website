@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Avatar, Box, Button, Drawer, Icon, styled, Theme, Typography, useTheme } from "@mui/material";
 import { LinkedIn, GitHub } from '@mui/icons-material';
 import { photoEmile } from "../assets/_export.tsx";
-import '../styles/components/profile.css';
 import { FormattedMessage } from "react-intl";
 
 const ProfileBox = styled(Box)(({ theme }: { theme: Theme }) => ({
@@ -16,6 +15,43 @@ const ProfileBox = styled(Box)(({ theme }: { theme: Theme }) => ({
   margin: 'auto',
   [theme.breakpoints.down('lg')]: {
       paddingTop: '0%'
+  },
+}));
+
+const MobileDrawer = styled(Drawer)(({ theme }: { theme: Theme }) => ({
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  justifyContent: 'center',
+  textAlign: 'center'
+}));
+
+const ProfileLine = styled(Box)(({ theme }: { theme: Theme }) => ({
+  display: 'flex',
+  flexDirection: 'row',
+  textAlign: 'left',
+  alignItems: 'center',
+  paddingBottom: '8%',
+  width: '100%',
+  fontSize: '16px',
+  [theme.breakpoints.down('lg')]: {
+    width: '80%',
+    paddingBottom: '3%',
+  },
+  [theme.breakpoints.down('md')]: {
+    width: '40%',
+  },
+  [theme.breakpoints.down('sm')]: {
+    width: '80%',
+  },
+}));
+
+const ProfileLines = styled(Box)(({ theme }: { theme: Theme }) => ({
+  [theme.breakpoints.down('lg')]: {
+    display: 'flex',
+    flexDirection: 'column',
+    textAlign: 'center',
+    alignItems: 'center',
   },
 }));
 
@@ -72,60 +108,53 @@ export default function NavigationTabs() {
             <Typography sx={{pt: 3, pb: 2,fontWeight: 'bold'}}>
                 <FormattedMessage id="profileTitle"/>
             </Typography>
-            <div className="row">
+            <ProfileLine>
                 <Icon className="flex-1">call</Icon>
                 <Typography className="flex-6">+33.6.38.66.41.18</Typography>
-            </div>
-            <div className="row">
+            </ProfileLine>
+            <ProfileLine>
                 <Icon className="flex-1">mail</Icon>
                 <Typography className="flex-6">{email}</Typography>
-            </div>
-            <div className="row">
+            </ProfileLine>
+            <ProfileLine>
                 <Icon className="flex-1">pin_drop</Icon>
                 <Typography className="flex-6">Bruges, Gironde, France</Typography>
-            </div>
-            <div className="row">
+            </ProfileLine>
+            <ProfileLine>
                 <LinkedIn className="flex-1"></LinkedIn>
                 <a className="flex-6" href="https://www.linkedin.com/in/emileboulanger/">Linkedin/emileboulanger</a>
-            </div>
-            <div className="row">
+            </ProfileLine>
+            <ProfileLine>
                 <GitHub className="flex-1"></GitHub>
                 <a className="flex-6" href="https://github.com/EmileBlngr">Github/EmileBlngr</a>
-            </div>
+            </ProfileLine>
             </>           
             )}
             
-            <Drawer 
+            <MobileDrawer 
             anchor="bottom" 
             open={isMobile && drawerOpen} 
-            onClose={handleToggleDrawer}
-            className="profile-content"
-            sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent: 'center'
-            }}>
+            onClose={handleToggleDrawer}>
                 <Avatar
                 alt="photo Emile" 
                 src={photoEmile}
                 sx={{ width:150, height: 150, border:2, borderColor:theme.palette.primary.main, alignSelf: 'center'}}/>
                 <NameText variant="h1">Emile BOULANGER</NameText>
                 <h4><FormattedMessage id="profileTitle"/></h4>
-                <div className="profile-lines">
-                    <div className="row">
+                <ProfileLines>
+                    <ProfileLine>
                         <Icon className="flex-1">call</Icon>
                         <Typography className="flex-6">+33.6.38.66.41.18</Typography>
-                    </div>
-                    <div className="row">
+                    </ProfileLine>
+                    <ProfileLine>
                         <Icon className="flex-1">mail</Icon>
                         <Typography className="flex-6">{email}</Typography>
-                    </div>
-                    <div className="row">
+                    </ProfileLine>
+                    <ProfileLine>
                         <Icon className="flex-1">pin_drop</Icon>
                         <Typography className="flex-6">Bruges, Gironde, France</Typography>
-                    </div>
-                    <div className="row">
+                    </ProfileLine>
+                    <ProfileLine>
                         <LinkedIn className="flex-1" />
                         <Typography
                             className="flex-6"
@@ -136,8 +165,8 @@ export default function NavigationTabs() {
                         >
                             Linkedin/emileboulanger
                         </Typography>
-                    </div>
-                    <div className="row">
+                    </ProfileLine>
+                    <ProfileLine>
                         <GitHub className="flex-1" />
                         <Typography
                             className="flex-6"
@@ -148,9 +177,9 @@ export default function NavigationTabs() {
                         >
                             Github/EmileBlngr
                         </Typography>
-                    </div>
-                </div>         
-            </Drawer>   
+                    </ProfileLine>
+                </ProfileLines>         
+            </MobileDrawer>   
         </ProfileBox>
     );
 }
