@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import '../styles/components/title.css'
 import { Box, styled, Theme, Typography } from "@mui/material";
 
 const TitleBox = styled(Box)(({ theme }: { theme: Theme }) => ({
