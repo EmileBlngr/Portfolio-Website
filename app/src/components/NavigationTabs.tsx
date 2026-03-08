@@ -76,6 +76,7 @@ const NavigationTabs = ({onLanguageChange}: NavigationTabsProps) => {
           break;
       }
       navigate(route);  
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [tab])
     useEffect(() => {
       const handleResize = () => {
