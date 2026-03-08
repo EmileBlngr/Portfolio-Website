@@ -36,6 +36,18 @@
     "career-academic-career" : "Parcours Académique",
     "career-professional-career" : "Expérience Professionelle",
 
+    "career-maincare" : "02/2026 - 07/2026 | Maincare, Canéjan",
+    "career-maincare-exp" : "Stage Ingénieur Logiciel",
+    "career-maincare-text1" : "Maincare est un acteur majeur de l’édition de logiciels médicaux en France.",
+    "career-maincare-text2" : "Dans le cadre de mon stage de fin d’études, je participe à la refonte d’une module important d’un produit logiciel. Intégré au sein d’une équipe pluridisciplinaire, je vais être amené à intervenir sur un large périmètre mêlant gestion de projet et travaux techniques.",
+    "career-maincare-text3" : "Mes responsabilités vont notamment inclure :",
+    "career-maincare-text4" : "- Définition des objectifs, KPIs, organisation et planification du projet",
+    "career-maincare-text5" : "- Mise en place d’indicateurs de suivi et analyse des risques",
+    "career-maincare-text6" : "- Découpage technique et conception d’architecture",
+    "career-maincare-text7" : "- Maquettage visuel et prototypage",
+    "career-maincare-text8" : "- Concertation avec diverses parties prenantes",
+    "career-maincare-text9" : "- Développement d’un Proof of Concept en pré-production",
+
     "career-careline" : "09/2024 - 12/2024 | Careline Solutions, Mérignac",
     "career-careline-exp" : "Stage Développeur Fullstack .NET / C# / React.js",
     "career-careline-text1" : "Careline Solutions est une startup proposant une plateforme de télésurveillance multiparamétrique des patients atteints d'insuffisance cardiaque.",

@@ -36,6 +36,18 @@
     "career-academic-career": "Academic Career",
     "career-professional-career": "Professional Experience",
 
+    "career-maincare": "02/2026 - 07/2026 | Maincare, Canéjan",
+    "career-maincare-exp": "Software Engineering Internship",
+    "career-maincare-text1": "Maincare is a major player in the medical software industry in France.",
+    "career-maincare-text2": "As part of my final-year internship, I am contributing to the redesign of a key module of a software product. Integrated within a multidisciplinary team, I am involved in a broad scope of work combining project management and technical tasks.",
+    "career-maincare-text3": "My responsibilities include:",
+    "career-maincare-text4": "- Defining project objectives, KPIs, organization, and planning",
+    "career-maincare-text5": "- Setting up monitoring indicators and conducting risk analysis",
+    "career-maincare-text6": "- Technical breakdown and architecture design",
+    "career-maincare-text7": "- Visual mockups and prototyping",
+    "career-maincare-text8": "- Coordination with various stakeholders",
+    "career-maincare-text9": "- Developing a pre-production Proof of Concept",
+
     "career-careline": "09/2024 - 12/2024 | Careline Solutions, Mérignac",
     "career-careline-exp": "Fullstack Developer Internship: .NET / C# / React.js",
     "career-careline-text1": "Careline Solutions is a startup offering a multi-parameter telemonitoring platform for patients with heart failure.",
