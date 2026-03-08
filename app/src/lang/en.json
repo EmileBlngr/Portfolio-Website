@@ -19,7 +19,7 @@
     "about-presentation-4": "My goal is to grow in the technical field of software development while staying connected to business challenges, taking on a thoughtful and strategic design role befitting an engineer.",
     "about-presentation-5": "You will gain deeper insights into my personality and background through this page.",
 
-    "about-internship-search": "I am looking for a 6-month final-year internship starting on February 6, 2026, combining software engineering and project management.",
+    "about-internship-search": "I am open to full‑time positions or consulting opportunities as a software engineer starting in January 2027.",
 
     "career-label-now" : "Now",
     "career-cesi" : "CESI Engineering school Bordeaux",
@@ -35,6 +35,18 @@
     "career-bac-text": "Diploma obtained with the Highest Honors. My specialties were: Mathematics, Computer Science, and Engineering Science.",
     "career-academic-career": "Academic Career",
     "career-professional-career": "Professional Experience",
+
+    "career-maincare": "02/2026 - 07/2026 | Maincare, Canéjan",
+    "career-maincare-exp": "Software Engineering Internship",
+    "career-maincare-text1": "Maincare is a major player in the medical software industry in France.",
+    "career-maincare-text2": "As part of my final-year internship, I am contributing to the redesign of a key module of a software product. Integrated within a multidisciplinary team, I am involved in a broad scope of work combining project management and technical tasks.",
+    "career-maincare-text3": "My responsibilities include:",
+    "career-maincare-text4": "- Defining project objectives, KPIs, organization, and planning",
+    "career-maincare-text5": "- Setting up monitoring indicators and conducting risk analysis",
+    "career-maincare-text6": "- Technical breakdown and architecture design",
+    "career-maincare-text7": "- Visual mockups and prototyping",
+    "career-maincare-text8": "- Coordination with various stakeholders",
+    "career-maincare-text9": "- Developing a pre-production Proof of Concept",
 
     "career-careline": "09/2024 - 12/2024 | Careline Solutions, Mérignac",
     "career-careline-exp": "Fullstack Developer Internship: .NET / C# / React.js",

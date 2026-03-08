@@ -102,6 +102,51 @@ export default function Career() {
                     </TimelineSeparator>
                     <TimelineContent>
                     <Typography component="span" sx={{fontSize: 17, fontWeight: 600}}>
+                        <FormattedMessage id="career-maincare-exp"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.contrastText, fontSize: 14, fontWeight: 600}}>
+                        <FormattedMessage id="career-maincare"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-maincare-text1"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-maincare-text2"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-maincare-text3"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-maincare-text4"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-maincare-text5"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-maincare-text6"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-maincare-text7"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-maincare-text8"/>
+                    </Typography>
+                    <Typography sx={{color: theme.palette.primary.dark, fontSize: 14}}>
+                        <FormattedMessage id="career-maincare-text9"/>
+                    </Typography>
+                    </TimelineContent>
+                </TimelineItem>
+
+                <TimelineItem>
+                    <TimelineSeparator>
+                        <TimelineConnector  sx={{backgroundColor: theme.palette.primary.main}}/>
+                            <TimelineDot sx={
+                                {borderColor: theme.palette.primary.main, 
+                                backgroundColor: theme.palette.primary.contrastText}}/>
+                        <TimelineConnector sx={{backgroundColor: theme.palette.primary.main}}/>
+                    </TimelineSeparator>
+                    <TimelineContent>
+                    <Typography component="span" sx={{fontSize: 17, fontWeight: 600}}>
                         <FormattedMessage id="career-careline-exp"/>
                     </Typography>
                     <Typography sx={{color: theme.palette.primary.contrastText, fontSize: 14, fontWeight: 600}}>

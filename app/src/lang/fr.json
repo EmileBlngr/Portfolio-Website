@@ -19,7 +19,7 @@
     "about-presentation-4" : "Mon objectif est de progresser dans la partie technique du développement logiciel tout en restant connecté aux enjeux métiers, en assumant un rôle de conception stratégique et réfléchi, propre à un ingénieur.",
     "about-presentation-5" : "Vous aurez un aperçu plus approfondi de ma personnalité et de mon parcours à travers cette page.",
     
-    "about-internship-search" : "Je suis en recherche d’un stage de fin d’études de 6 mois à partir du 6 février 2026, mêlant ingénierie logicielle et pilotage de projet.",
+    "about-internship-search" : "Je suis à l'écoute d'opportunités de CDI ou de missions de consultant en tant qu'ingénieur logiciel à partir de janvier 2027.",
 
     "career-label-now" : "En cours",
     "career-cesi" : "CESI École d'Ingénieurs Bordeaux",
@@ -35,6 +35,18 @@
     "career-bac-text" : "Diplôme obtenu avec la Mention 'Très Bien'. Mes spécialités étaient : Mathématiques, Informatique, et Science de l'ingénieur.",
     "career-academic-career" : "Parcours Académique",
     "career-professional-career" : "Expérience Professionelle",
+
+    "career-maincare" : "02/2026 - 07/2026 | Maincare, Canéjan",
+    "career-maincare-exp" : "Stage Ingénieur Logiciel",
+    "career-maincare-text1" : "Maincare est un acteur majeur de l’édition de logiciels médicaux en France.",
+    "career-maincare-text2" : "Dans le cadre de mon stage de fin d’études, je participe à la refonte d’une module important d’un produit logiciel. Intégré au sein d’une équipe pluridisciplinaire, je vais être amené à intervenir sur un large périmètre mêlant gestion de projet et travaux techniques.",
+    "career-maincare-text3" : "Mes responsabilités vont notamment inclure :",
+    "career-maincare-text4" : "- Définition des objectifs, KPIs, organisation et planification du projet",
+    "career-maincare-text5" : "- Mise en place d’indicateurs de suivi et analyse des risques",
+    "career-maincare-text6" : "- Découpage technique et conception d’architecture",
+    "career-maincare-text7" : "- Maquettage visuel et prototypage",
+    "career-maincare-text8" : "- Concertation avec diverses parties prenantes",
+    "career-maincare-text9" : "- Développement d’un Proof of Concept en pré-production",
 
     "career-careline" : "09/2024 - 12/2024 | Careline Solutions, Mérignac",
     "career-careline-exp" : "Stage Développeur Fullstack .NET / C# / React.js",
