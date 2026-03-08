@@ -58,7 +58,7 @@ const ModalProject = ({open, setOpen, idProject}: ModalProjectProps) => {
         else {
             setIsImageExpanded(false)
         }
-    }, [open])
+    }, [idProject, open])
     //#endregion
     return(
         <Modal
